@@ -83,17 +83,33 @@ export default function RootLayout({
           </div>
 
           {mobileMenuOpen && (
-            <div className="md:hidden bg-white border-t border-gray-200 px-6 py-4 space-y-4">
-              <Link href="/" className="block text-gray-700">
+            <div className="md:hidden absolute top-full left-0 w-full bg-white border-t border-gray-200 px-6 py-6 space-y-6 z-[999] shadow-md">
+              <Link 
+                href="/" 
+                className="block text-gray-700"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 Home
               </Link>
-              <Link href="/about" className="block text-gray-700">
+              <Link 
+                href="/about" 
+                className="block text-gray-700"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 About
               </Link>
-              <Link href="/ecosystem" className="block text-gray-700">
+              <Link 
+                href="/ecosystem" 
+                className="block text-gray-700"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 Ecosystem
               </Link>
-              <Link href="/contact" className="block text-gray-700">
+              <Link 
+                href="/contact" 
+                className="block text-gray-700"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 Contact
               </Link>
             </div>
