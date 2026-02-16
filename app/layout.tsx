@@ -3,7 +3,7 @@
 import "./globals.css"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect } from "react"
 
 export default function RootLayout({
   children,
@@ -11,9 +11,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   const pathname = usePathname()
+
+  // Mobile full menu toggle
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  // Dropdown control (About / Divisions)
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
+
   const [scrolled, setScrolled] = useState(false)
-const [mobileOpen, setMobileOpen] = useState(false)
-  const dropdownRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,38 +27,6 @@ const [mobileOpen, setMobileOpen] = useState(false)
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
-
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(event.target as Node)
-      ) {
-        setMobileOpen(null)
-      }
-    }
-
-    document.addEventListener("mousedown", handleClickOutside)
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside)
-    }
-  }, [])
-
-  const navLink = (href: string, label: string) => (
-    <Link
-      href={href}
-      className={`transition relative px-1
-        ${
-          pathname === href
-            ? "text-[#C6A75E] relative after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[1.5px] after:bg-[#C6A75E]"
-            : "text-gray-400 hover:text-[#C6A75E] focus:text-[#4F46E5] active:text-[#4F46E5]"
-        }
-        focus:outline-none focus-visible:ring-2 focus-visible:ring-[#4F46E5] focus-visible:rounded
-      `}
-    >
-      {label}
-    </Link>
-  )
 
   return (
     <html lang="en">
@@ -84,13 +57,13 @@ const [mobileOpen, setMobileOpen] = useState(false)
   {/* ABOUT DROPDOWN */}
   <div className="relative">
     <button
-      onClick={() => setMobileOpen(mobileOpen === "about" ? null : "about")}
+      onClick={() => setActiveDropdown(activeDropdown === "about" ? null : "about")}
       className="text-gray-400 hover:text-[#C6A75E] focus:text-[#4F46E5] active:text-[#4F46E5] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[#4F46E5] focus-visible:rounded"
     >
       About ▾
     </button>
 
-    {mobileOpen === "about" && (
+    {activeDropdown === "about" && (
       <div className="absolute top-10 left-0 w-64 bg-[#12172F] border border-[#C6A75E]/20 hover:border-[#C6A75E]/40 rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.7)] p-6 space-y-4 z-50 transition-colors">
         <Link href="/about" className="block text-gray-400 hover:text-[#C6A75E] focus:text-[#4F46E5] active:text-[#4F46E5] hover:translate-x-1 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#4F46E5] focus-visible:rounded">
           Overview
@@ -107,13 +80,13 @@ const [mobileOpen, setMobileOpen] = useState(false)
   {/* DIVISIONS DROPDOWN */}
   <div className="relative">
     <button
-      onClick={() => setMobileOpen(mobileOpen === "divisions" ? null : "divisions")}
+      onClick={() => setActiveDropdown(activeDropdown === "divisions" ? null : "divisions")}
       className="text-gray-400 hover:text-[#C6A75E] focus:text-[#4F46E5] active:text-[#4F46E5] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[#4F46E5] focus-visible:rounded"
     >
       Divisions ▾
     </button>
 
-    {mobileOpen === "divisions" && (
+    {activeDropdown === "divisions" && (
       <div className="absolute top-8 left-0 w-64 bg-[#12172F] border border-[#C6A75E]/20 hover:border-[#C6A75E]/40 rounded-xl shadow-2xl p-4 space-y-3 z-50 transition-colors">
         <Link href="/financial" className="block text-gray-400 hover:text-[#C6A75E] focus:text-[#4F46E5] active:text-[#4F46E5] hover:translate-x-1 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#4F46E5] focus-visible:rounded">
           Financial Technologies
@@ -144,7 +117,7 @@ const [mobileOpen, setMobileOpen] = useState(false)
             {/* Mobile Button */}
             <button
               className="md:hidden text-gray-300"
-              onClick={() => setMobileOpen(!mobileOpen)}
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               ☰
             </button>
@@ -152,7 +125,7 @@ const [mobileOpen, setMobileOpen] = useState(false)
           </div>
 
           {/* Mobile Menu */}
-          {mobileOpen && (
+          {mobileMenuOpen && (
             <div className="md:hidden bg-black px-6 py-4 space-y-4">
               {navLink("/", "Home")}
               {navLink("/about/founder", "Founder")}
