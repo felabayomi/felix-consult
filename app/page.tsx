@@ -1,281 +1,222 @@
-import Link from 'next/link';
-
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="relative min-h-screen bg-[#0B0B0F] text-white">
-
-      {/* Gold Ambient Glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 
-                      w-[900px] h-[900px] 
-                      bg-[#C6A75E]/10 blur-[160px] 
-                      rounded-full pointer-events-none" />
-
-      <div className="relative z-10">
-
+    <main className="bg-[#05060A] text-white">
 
       {/* HERO */}
-      <section className="flex flex-col justify-center items-center text-center px-6 pt-28 pb-20">
-        <h1 className="text-5xl md:text-6xl font-bold mb-6">
+      <section className="pt-32 pb-24 px-6 text-center bg-gradient-to-b from-[#0B0E14] to-[#05060A]">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6">
           Felix Consulting Group
         </h1>
 
-        <p className="max-w-3xl text-lg text-gray-400 mb-8">
-         Building Scalable Digital Platforms For Modern Life, Finance & Intelligent Systems
-
-We find the system that solves your problem across finance, travel, media, and infrastructure—or we can partner to build it.
+        <p className="text-[#D4AF37] text-lg md:text-xl mb-4">
+          Building Scalable Digital Platforms For Modern Life, Finance & Intelligent Systems
         </p>
 
-        <div className="flex justify-center gap-6">
-          <Link
+        <p className="max-w-3xl mx-auto text-gray-400 mb-10">
+          Discover structured platforms across finance, travel, media, and infrastructure —
+          deploy what fits or build what’s next.
+        </p>
+
+        <div className="flex justify-center gap-4 flex-wrap">
+          <a
             href="/ecosystem"
-            className="bg-[#C6A75E] text-black hover:bg-[#D4B56F] px-6 py-3 rounded-lg font-semibold transition-all duration-300"
+            className="bg-[#D4AF37] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90 transition"
           >
             Explore Our Ecosystem
-          </Link>
-          <Link
+          </a>
+          <a
             href="/contact"
-            className="border border-[#C6A75E] text-[#C6A75E] hover:bg-[#C6A75E] hover:text-black px-6 py-3 rounded-lg font-semibold transition-all duration-300"
+            className="border border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded-md font-semibold hover:bg-[#D4AF37] hover:text-black transition"
           >
             Work With Us
-          </Link>
+          </a>
         </div>
       </section>
 
-      {/* INSTITUTIONAL METRICS */}
-      <section className="py-10 border-t border-b border-[#C6A75E]/10 bg-[#0E0E13]">
-        <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-
+      {/* METRICS */}
+      <section className="py-12 border-t border-gray-800 text-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <p className="text-3xl font-bold text-[#C6A75E]">40+</p>
+            <p className="text-3xl font-bold text-[#D4AF37]">40+</p>
             <p className="text-gray-400 text-sm">Active Ventures</p>
           </div>
-
           <div>
-            <p className="text-3xl font-bold text-[#C6A75E]">12+</p>
+            <p className="text-3xl font-bold text-[#D4AF37]">12+</p>
             <p className="text-gray-400 text-sm">Industry Verticals</p>
           </div>
-
           <div>
-            <p className="text-3xl font-bold text-[#C6A75E]">Global</p>
+            <p className="text-3xl font-bold text-[#D4AF37]">Global</p>
             <p className="text-gray-400 text-sm">Operational Reach</p>
           </div>
-
           <div>
-            <p className="text-3xl font-bold text-[#C6A75E]">Impact-Driven</p>
+            <p className="text-3xl font-bold text-[#D4AF37]">Impact-Driven</p>
             <p className="text-gray-400 text-sm">Mission Alignment</p>
           </div>
-Built and deployed across multiple ventures within the Felix ecosystem.
         </div>
       </section>
-{/* FOUNDER VISION BLOCK */}
-<section className="py-20 px-6 border-t border-[#C6A75E]/10">
-  <div className="max-w-4xl mx-auto text-center">
 
-    <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-[#C6A75E]">
-      A Founder-Led Architecture
-    </h2>
+      {/* QUOTE */}
+      <section className="py-24 px-6 text-center border-t border-gray-800">
+        <p className="text-xl md:text-2xl max-w-4xl mx-auto text-gray-200">
+          “Felix Consulting Group operates as a structured digital operating system —
+          not a collection of disconnected projects.”
+        </p>
+      </section>
 
-    <p className="text-gray-400 leading-relaxed mb-8">
-      Felix Consulting Group was not built as a collection of projects —
-      it was designed as an integrated ecosystem.
-      Each division, platform, and initiative is structured around
-      one principle: systems create scale, and clarity creates momentum.
-    </p>
-
-    <p className="text-gray-500 text-sm italic">
-      Vision. Structure. Impact.
-    </p>
-
-  </div>
-</section>
- 
       {/* CORE DIVISIONS */}
-      <section className="py-20 px-6 border-t border-[#C6A75E]/10">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-24 px-6 border-t border-gray-800">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+          Core Divisions
+        </h2>
 
-          <div className="mb-16 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Core Divisions
-            </h2>
-            <p className="text-gray-400 max-w-2xl mx-auto">
-              Felix Consulting Group operates through structured divisions
-              designed to drive institutional scale, ecosystem growth,
-              and measurable global impact.
-            </p>
-          </div>
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-          <div className="grid md:grid-cols-3 gap-8">
-
-            {[
-              {
-                title: "Financial Technologies",
-                desc: "Fintech infrastructure, payment systems, wealth platforms, and financial intelligence ecosystems.",
-                link: "/financial"
-              },
-              {
-                title: "Travel & Urban Systems",
-                desc: "City intelligence platforms, tourism ecosystems, and AI-powered travel infrastructure.",
-                link: "/travel"
-              },
-              {
-                title: "Digital Media & Applications",
-                desc: "Streaming platforms, discovery applications, and scalable cross-platform digital products.",
-                link: "/media"
-              },
-              {
-                title: "Conservation & Environmental Impact",
-                desc: "Wildlife conservation, ethical research institutions, and sustainability innovation.",
-                link: "/conservation"
-              },
-              {
-                title: "Consulting & Strategy",
-                desc: "Business transformation, ecosystem architecture, growth advisory, and institutional structuring.",
-                link: "/consulting"
-              },
-              {
-                title: "Services & Infrastructure",
-                desc: "Operational logistics, concierge systems, coworking infrastructure, and service platforms.",
-                link: "/services"
-              },
-            ].map((division, index) => (
-              <a
-                key={index}
-                href={division.link}
-                className="group p-8 rounded-xl border border-[#C6A75E]/20 bg-[#111114] 
-                           hover:border-[#C6A75E] hover:bg-[#141418] 
-                           transition-all duration-300"
-              >
-                <h3 className="text-xl font-semibold mb-4 group-hover:text-[#C6A75E] transition">
-                  {division.title}
-                </h3>
-                <p className="text-gray-400 text-sm">
-                  {division.desc}
-                </p>
+          {[
+            {
+              title: "Financial Technologies",
+              desc: "Scalable fintech infrastructure, intelligent wealth systems, and modern payment architecture.",
+              items: [
+                "WealthFront App — Intelligent wealth tracking & financial visibility.",
+                "Payment Infrastructure Layer — Structured transaction systems."
+              ],
+              link: "Explore Financial Systems →"
+            },
+            {
+              title: "Travel & Urban Systems",
+              desc: "Smart city intelligence, structured tourism platforms, and AI-powered travel ecosystems.",
+              items: [
+                "City Intelligence Layer — Data-driven urban insights.",
+                "Travel Ecosystem Platform — Intelligent discovery & logistics."
+              ],
+              link: "Explore Travel Systems →"
+            },
+            {
+              title: "Digital Media & Applications",
+              desc: "Streaming platforms, discovery applications, and scalable cross-platform digital products.",
+              items: [
+                "Streaming Infrastructure — Scalable media delivery platforms.",
+                "Discovery Applications — Cross-platform digital ecosystems."
+              ],
+              link: "Explore Media Systems →"
+            },
+            {
+              title: "Conservation & Environmental Impact",
+              desc: "Wildlife conservation, ethical research institutions, and sustainability innovation.",
+              items: [
+                "Wildlife Conservation Systems — Species protection initiatives.",
+                "Sustainability Innovation Lab — Environmental impact solutions."
+              ],
+              link: "Explore Conservation Systems →"
+            },
+            {
+              title: "Consulting & Strategy",
+              desc: "Business transformation, ecosystem architecture, growth advisory, and institutional structuring.",
+              items: [
+                "Ecosystem Architecture — Structured growth frameworks.",
+                "Institutional Structuring — Strategic organizational design."
+              ],
+              link: "Explore Strategy Systems →"
+            },
+            {
+              title: "Services & Infrastructure",
+              desc: "Operational logistics, concierge systems, coworking infrastructure, and service platforms.",
+              items: [
+                "Concierge & Logistics Systems — Operational delivery platforms.",
+                "Coworking Infrastructure — Scalable workspace ecosystems."
+              ],
+              link: "Explore Infrastructure Systems →"
+            }
+          ].map((division, i) => (
+            <div
+              key={i}
+              className="bg-[#0B0E14] border border-gray-800 rounded-lg p-8 hover:border-[#D4AF37] transition"
+            >
+              <h3 className="text-xl font-semibold mb-4">{division.title}</h3>
+              <p className="text-gray-400 mb-4">{division.desc}</p>
+              <ul className="text-gray-300 text-sm mb-6 space-y-2">
+                {division.items.map((item, idx) => (
+                  <li key={idx}>• {item}</li>
+                ))}
+              </ul>
+              <a href="/ecosystem" className="text-[#D4AF37] font-medium hover:underline">
+                {division.link}
               </a>
-            ))}
-
-          </div>
+            </div>
+          ))}
 
         </div>
       </section>
 
-      {/* ...existing code... */}
+      {/* FIND IT SECTION */}
+      <section className="py-24 px-6 border-t border-gray-800 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          Find It. Use It. Or We’ll Build It.
+        </h2>
+        <p className="text-gray-400 max-w-3xl mx-auto mb-16">
+          Every platform, tool, and system here exists for deployment — not observation.
+        </p>
 
-      {/* ...existing code... */}
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto text-left">
 
-      {/* FOUNDER VISION */}
-      <section className="py-20 px-6 bg-[#0E0E13] border-t border-[#C6A75E]/10">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-
-          {/* Left Side – Text */}
-          <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              The Ecosystem Architect
-            </h2>
-
-            <p className="text-gray-400 mb-6">
-              Felix Olusola Abayomi is building a structured digital ecosystem 
-              spanning finance, travel intelligence, media systems, 
-              conservation initiatives, and operational infrastructure.
-            </p>
-
-            <p className="text-gray-500 mb-8">
-              His philosophy is simple: build interconnected platforms 
-              designed for long-term scale, disciplined execution, 
-              and measurable global impact.
-            </p>
-
-            <Link
-              href="/about/founder"
-              className="inline-block border border-[#C6A75E] text-[#C6A75E] 
-                         hover:bg-[#C6A75E] hover:text-black 
-                         px-6 py-3 rounded-lg font-semibold 
-                         transition-all duration-300"
+          {[
+            {
+              title: "Found a system?",
+              desc: "Deploy it immediately."
+            },
+            {
+              title: "Need help getting started?",
+              desc: "We guide implementation."
+            },
+            {
+              title: "Need it tailored?",
+              desc: "We customize for your context."
+            },
+            {
+              title: "Don’t see your solution?",
+              desc: "We architect it with you."
+            }
+          ].map((card, i) => (
+            <div
+              key={i}
+              className="bg-[#0B0E14] border border-gray-800 rounded-lg p-8 hover:border-[#D4AF37] transition"
             >
-              Read Founder Philosophy
-            </Link>
-          </div>
-
-          {/* Right Side – Strategic Quote Block */}
-          <div className="bg-[#111114] p-10 rounded-xl border border-[#C6A75E]/20">
-            <p className="text-lg text-gray-300 italic leading-relaxed">
-              "True scale is not built through isolated projects — 
-              it is built through structured ecosystems where each 
-              platform strengthens the next."
-            </p>
-
-            <div className="mt-6 text-[#C6A75E] font-semibold">
-              — Felix Olusola Abayomi
+              <h4 className="text-lg font-semibold mb-3 text-[#D4AF37]">
+                {card.title}
+              </h4>
+              <p className="text-gray-400">{card.desc}</p>
             </div>
-          </div>
+          ))}
 
+        </div>
+      </section>
+
+      {/* FINAL CTA */}
+      <section className="py-20 text-center border-t border-gray-800">
+        <h2 className="text-3xl font-bold mb-6">
+          Deploy What Exists. Build What Doesn’t.
+        </h2>
+
+        <div className="flex justify-center gap-4 flex-wrap">
+          <a
+            href="/ecosystem"
+            className="bg-[#D4AF37] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90 transition"
+          >
+            Explore Systems
+          </a>
+          <a
+            href="/contact"
+            className="border border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded-md font-semibold hover:bg-[#D4AF37] hover:text-black transition"
+          >
+            Contact Us
+          </a>
         </div>
       </section>
 
       {/* FOOTER */}
-      <footer className="py-10 text-center text-gray-500 border-t border-[#C6A75E]/20 bg-[#111114]">
+      <footer className="py-8 text-center text-gray-500 border-t border-gray-800 text-sm">
         © 2026 Felix Consulting Group. All rights reserved.
       </footer>
 
-      </div>
     </main>
-  )
-}
-
-/* COMPONENTS */
-
-function DivisionCard({
-  title,
-  description,
-}: {
-  title: string
-  description: string
-}) {
-  return (
-    <div className="bg-[#0D1428] p-6 rounded-xl border border-gray-800 hover:border-blue-600 transition">
-      <h3 className="text-xl font-semibold mb-3">
-        {title}
-      </h3>
-      <p className="text-gray-400 text-sm">
-        {description}
-      </p>
-    </div>
-  )
-}
-
-function EcosystemBlock({
-  title,
-  description,
-  items,
-}: {
-  title: string
-  description: string
-  items: { name: string; url: string }[]
-}) {
-  return (
-    <div>
-      <h3 className="text-2xl font-semibold mb-4 text-blue-400">
-        {title}
-      </h3>
-
-      <p className="text-gray-400 mb-6 max-w-3xl">
-        {description}
-      </p>
-
-      <div className="flex flex-wrap gap-4 text-sm">
-        {items.map((item) => (
-          <a
-            key={item.name}
-            href={item.url}
-            target="_blank"
-            className="px-4 py-2 bg-[#0D1428] rounded-lg border border-gray-800 
-                       hover:border-blue-600 hover:bg-[#101B35] 
-                       hover:scale-105 transition-all duration-300"
-          >
-            {item.name}
-          </a>
-        ))}
-      </div>
-    </div>
   )
 }
