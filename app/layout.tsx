@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   const pathname = usePathname()
   const [scrolled, setScrolled] = useState(false)
-  const [mobileOpen, setMobileOpen] = useState<string | null>(null)
+const [mobileOpen, setMobileOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
@@ -134,7 +134,7 @@ export default function RootLayout({
           Services & Infrastructure
         </Link>
       </div>
-    )}
+    )} 
   </div>
 
   {navLink("/contact", "Contact")}
