@@ -13,8 +13,7 @@ export default function HomePage() {
         </p>
 
         <p className="max-w-3xl mx-auto text-gray-400 mb-10">
-          Discover structured platforms across finance, travel, media, and infrastructure —
-          deploy what fits or build what’s next.
+          Find the system that solves your problem across finance, travel, media, and infrastructure — or partner with us to explore solutions together.
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
