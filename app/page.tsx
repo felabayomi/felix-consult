@@ -160,7 +160,7 @@ export default function HomePage() {
           {[
             {
               title: "Found a system?",
-              desc: "Deploy it immediately."
+              desc: "Use it immediately."
             },
             {
               title: "Need help getting started?",
@@ -213,7 +213,7 @@ export default function HomePage() {
 
       {/* FOOTER */}
       <footer className="py-8 text-center text-gray-500 border-t border-gray-800 text-sm">
-        © 2026 Felix Consulting Group. All rights reserved.
+        
       </footer>
 
     </main>
