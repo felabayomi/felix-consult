@@ -20,9 +20,9 @@ export default function Home() {
         </h1>
 
         <p className="max-w-3xl text-lg text-gray-400 mb-8">
-          A global consulting firm and digital holding company building
-          financial systems, travel ecosystems, media platforms,
-          and impact-driven ventures.
+         Building Scalable Digital Platforms For Modern Life, Finance & Intelligent Systems
+
+We find the system that solves your problem across finance, travel, media, and infrastructure—or we can partner to build it.
         </p>
 
         <div className="flex justify-center gap-6">
@@ -64,7 +64,7 @@ export default function Home() {
             <p className="text-3xl font-bold text-[#C6A75E]">Impact-Driven</p>
             <p className="text-gray-400 text-sm">Mission Alignment</p>
           </div>
-
+Built and deployed across multiple ventures within the Felix ecosystem.
         </div>
       </section>
 {/* FOUNDER VISION BLOCK */}
