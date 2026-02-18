@@ -36,7 +36,7 @@ export default function HomePage() {
       <section className="py-12 border-t border-gray-800 text-center">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <p className="text-3xl font-bold text-[#D4AF37]">40+</p>
+            <p className="text-3xl font-bold text-[#D4AF37]">65+</p>
             <p className="text-gray-400 text-sm">Active Ventures</p>
           </div>
           <div>
