@@ -25,7 +25,7 @@ export default function FinancialDivision() {
     {
       name: "DIY Debt",
       description: "Structured debt elimination strategies.",
-      url: "https://diydebt.org",
+      url: "https://dyidebt.org/",
     },
     {
       name: "Felix Pay",
