@@ -56,21 +56,27 @@ export default function ServicesDivision() {
       <div className="grid md:grid-cols-2 gap-8">
 
         <ServiceCard
+          title="ReserveEZ"
+          description="A community-focused online reservation platform helping restaurants manage bookings efficiently and elevate guest experience."
+          url="https://tablepilot.io"
+        />
+        
+        <ServiceCard
           title="Errand Easy"
           description="Professional concierge services simplifying personal and business errands."
-          url="https://rest-ez-connect.replit.app"
+          url="https://errandeasy.app/"
         />
 
         <ServiceCard
-          title="EasyDesk Pro"
+          title="EasyDesk Pro - Prototype"
           description="Modern coworking spaces empowering freelancers, teams, and startups."
           url="https://ezdesk.pro"
         />
 
         <ServiceCard
           title="ARK Logistics"
-          description="Reliable logistics solutions designed for efficiency and operational excellence."
-          url="#"
+          description="RDelivering Excellence, Moving Your World — A comprehensive logistics and delivery service designed to provide efficient, reliable, and scalable solutions for businesses and individuals, ensuring your goods reach their destination with care and precision."
+          url="https://schedez.io"
         />
 
         <ServiceCard
@@ -92,9 +98,27 @@ export default function ServicesDivision() {
         />
 
         <ServiceCard
-          title="ReserveEZ"
-          description="A community-focused online reservation platform helping restaurants manage bookings efficiently and elevate guest experience."
-          url="https://tablepilot.io"
+          title="Felix's Store"
+          description="Your Everyday Needs, Just a Click Away — A curated online store offering a range of essential products for daily life, from home goods to personal care items, all delivered with convenience and reliability."
+          url="#"
+        />
+
+        <ServiceCard
+          title="ARK Sports Lounge"
+          description="Where Sports and Leisure Meet — A dynamic sports lounge offering a vibrant atmosphere for fans to enjoy live games, socialize, and experience the thrill of sports in a unique setting."
+          url="#"
+        />
+
+        <ServiceCard
+          title="Adrian's Styled Collection"
+          description="Elevate Your Style with Timeless Elegance — A curated fashion collection blending classic sophistication with modern trends, designed to empower your wardrobe with versatile and stylish pieces for every occasion."
+          url="#"
+        />
+
+        <ServiceCard
+          title="Felix Meal"
+          description="Creates meals and menus from ingredients or by request, providing convenient and delicious food solutions for individuals and businesses."
+          url="https://chatgpt.com/g/g-689404bb375c8191a934b6afca8659c8-felix-meals"
         />
 
       </div>
