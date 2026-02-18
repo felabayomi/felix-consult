@@ -46,33 +46,67 @@ export default function ConsultingDivision() {
         </div>
       </div>
 
+      <h2 className="text-3xl font-bold mb-6 text-white">
+        Consulting & Strategy Platforms
+      </h2>
+
       <p className="text-gray-400 max-w-3xl mb-12">
-        Felix Consulting Group provides strategic advisory services
-        focused on business transformation, ecosystem design,
-        digital innovation, and sustainable growth.
+        These entities represent the structured advisory, institutional,
+        and strategic frameworks within the Felix ecosystem. 
+        Each platform strengthens long-term ecosystem architecture,
+        leadership development, and institutional growth.
       </p>
 
       <div className="grid md:grid-cols-2 gap-8">
 
         <ServiceCard
-          title="Business Transformation"
-          description="Operational restructuring, digital modernization, and scalable growth frameworks."
-        />
+  title="Felix Consulting Group"
+  description="Strategic advisory and ecosystem architecture firm focused on institutional structuring, operational systems, and long-term growth design."
+  link="https://felixconsult.co/"
+/>
 
-        <ServiceCard
-          title="Ecosystem Building"
-          description="Designing interconnected business platforms that drive network effects and long-term value."
-        />
+<ServiceCard
+  title="FelixDGuide"
+  description="Founder-led insights on strategy, structured growth, and ecosystem thinking across finance, travel, and impact platforms."
+  link="https://felixdguide.com"
+/>
 
-        <ServiceCard
-          title="Innovation Advisory"
-          description="AI integration, technology roadmapping, and new product strategy."
-        />
+<ServiceCard
+  title="AdrianFelix Corporation"
+  description="Structured enterprise development and holding initiatives focused on scalable business architecture."
+  link="https://felixconsult.co/"
+/>
 
-        <ServiceCard
-          title="Growth Strategy"
-          description="Market expansion, revenue optimization, and long-term capital positioning."
-        />
+<ServiceCard
+  title="Insightify Hub"
+  description="Professional development and strategic training platform designed to cultivate disciplined execution and institutional clarity."
+  link="#"
+/>
+
+<ServiceCard
+  title="FeliMark"
+  description="Brand positioning and strategic marketing frameworks built to strengthen authority and long-term visibility."
+  link="#"
+/>
+
+<ServiceCard
+  title="Justice Beyond Borders"
+  description="Global impact initiative focused on structural justice, institutional reform, and ethical systems integration."
+  link="#"
+/>
+
+<ServiceCard
+  title="Center for Spiritual Humanism"
+  description="Philosophical and human-centered frameworks exploring structured ethics, spiritual development, and civic leadership."
+  link="#"
+/>
+
+<ServiceCard
+  title="Faith House Ministries Church"
+  description="Faith-based institutional platform integrating spiritual leadership, community impact, and structured ministry systems."
+  link="#"
+/>
+
 
       </div>
 
@@ -98,23 +132,32 @@ export default function ConsultingDivision() {
   )
 }
 
-function ServiceCard({
-  title,
-  description,
-}: {
-  title: string
-  description: string
+function ServiceCard({ title, description, link }: {
+  title: string;
+  description: string;
+  link?: string;
 }) {
-  return (
+  const content = (
     <div className="p-6 bg-[#111114] rounded-xl border border-[#C6A75E]/20 
                     hover:border-[#C6A75E]/60 hover:bg-[#141418] 
-                    transition-all duration-300">
-      <h3 className="text-xl font-semibold mb-3">
+                    transition-all duration-300 h-full">
+      <h3 className="text-xl font-semibold mb-3 text-white">
         {title}
       </h3>
-      <p className="text-gray-400 text-sm">
+      <p className="text-gray-400 text-sm leading-relaxed">
         {description}
       </p>
+      {link && (
+        <p className="mt-4 text-[#C6A75E] text-sm font-medium">
+          Visit Platform →
+        </p>
+      )}
     </div>
   )
+
+  return link ? (
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      {content}
+    </a>
+  ) : content
 }
