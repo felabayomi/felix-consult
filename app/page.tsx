@@ -1,3 +1,4 @@
+import Link from "next/link";
 export const dynamic = "force-static";
 export default function HomePage() {
   return (
@@ -18,18 +19,18 @@ export default function HomePage() {
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
-          <a
+          <Link
             href="/ecosystem"
             className="bg-[#D4AF37] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90 transition"
           >
             Explore Our Ecosystem
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contact"
             className="border border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded-md font-semibold hover:bg-[#D4AF37] hover:text-black transition"
           >
             Work With Us
-          </a>
+          </Link>
         </div>
       </section>
 
