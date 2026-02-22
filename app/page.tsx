@@ -1,3 +1,4 @@
+export const dynamic = "force-static";
 export default function HomePage() {
   return (
     <main className="bg-[#05060A] text-white">
@@ -13,7 +14,7 @@ export default function HomePage() {
         </p>
 
         <p className="max-w-3xl mx-auto text-gray-400 mb-10">
-          Find the system that solves your problem across finance, travel, media, and infrastructure — or partner with us to explore solutions together.
+             Find the system that solves your problem across finance, travel, media, and infrastructure — or partner with us to explore solutions together.
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
@@ -212,9 +213,7 @@ export default function HomePage() {
       </section>
 
       {/* FOOTER */}
-      <footer className="py-8 text-center text-gray-500 border-t border-gray-800 text-sm">
-        
-      </footer>
+      {/* FOOTER REMOVED AS REQUESTED */}
 
     </main>
   )
