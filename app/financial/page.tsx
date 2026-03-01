@@ -64,11 +64,10 @@ export default function FinancialDivision() {
       url: "https://apps.apple.com/us/app/wealth-watch/id6758687724",
     },
     {
-      name: "Letter Vault",
-      description: "Every letter. Tracked. Resolved. Protected.
-AI-powered letter management that turns stacks of mail into organized, actionable records. Know what arrived, what it means, and what to do next.",
-      url: "https://lettervault.us",
-    },
+  name: "Letter Vault",
+  description: "Every letter. Tracked. Resolved. Protected. AI-powered letter management that turns stacks of mail into organized, actionable records. Know what arrived, what it means, and what to do next.",
+  url: "https://lettervault.us",
+},
     {
       name: "Debt to Legacy",
       description:
