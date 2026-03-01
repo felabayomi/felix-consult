@@ -1,10 +1,10 @@
-;"use client"
+"use client";
 
-import { usePathname } from "next/navigation"
-import Link from "next/link"
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function FinancialDivision() {
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   const platforms = [
     {
@@ -64,17 +64,18 @@ export default function FinancialDivision() {
       url: "https://apps.apple.com/us/app/wealth-watch/id6758687724",
     },
     {
-  name: "Letter Vault",
-  description: "Every letter. Tracked. Resolved. Protected. AI-powered letter management that turns stacks of mail into organized, actionable records. Know what arrived, what it means, and what to do next.",
-  url: "https://lettervault.us",
-},
+      name: "Letter Vault",
+      description: `Every letter. Tracked. Resolved. Protected.
+AI-powered letter management that turns stacks of mail into organized, actionable records. Know what arrived, what it means, and what to do next.`,
+      url: "https://lettervault.us",
+    },
     {
       name: "Debt to Legacy",
       description:
         "Tools to build income, eliminate debt, and grow your legacy.",
       url: "https://debttolegacy.com",
     },
-  ]
+  ];
 
   return (
     <main className="min-h-screen bg-[#0B0B0F] text-white px-6 py-24">
@@ -145,18 +146,17 @@ export default function FinancialDivision() {
       </section>
 
     </main>
-  )
+  );
 }
-
 
 function DivisionItem({
   name,
   description,
   url,
 }: {
-  name: string
-  description: string
-  url: string
+  name: string;
+  description: string;
+  url: string;
 }) {
   return (
     <a
@@ -179,5 +179,5 @@ function DivisionItem({
         Visit Platform →
       </span>
     </a>
-  )
+  );
 }
