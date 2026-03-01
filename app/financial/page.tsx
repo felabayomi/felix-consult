@@ -70,6 +70,11 @@ AI-powered letter management that turns stacks of mail into organized, actionabl
       url: "https://lettervault.us",
     },
     {
+      name: "Abaflix Capital",
+      description: `An independent capital regime research platform analyzing liquidity cycles, inflation dynamics, and risk appetite behavior across global markets.`,
+      url: "https://abaflix.us",
+    },
+    {
       name: "Debt to Legacy",
       description:
         "Tools to build income, eliminate debt, and grow your legacy.",
