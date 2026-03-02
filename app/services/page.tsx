@@ -75,16 +75,22 @@ export default function ServicesDivision() {
 
         <ServiceCard
           title="ARK Logistics"
-          description="RDelivering Excellence, Moving Your World — A comprehensive logistics and delivery service designed to provide efficient, reliable, and scalable solutions for businesses and individuals, ensuring your goods reach their destination with care and precision."
+          description="Delivering Excellence, Moving Your World — A comprehensive logistics and delivery service designed to provide efficient, reliable, and scalable solutions for businesses and individuals, ensuring your goods reach their destination with care and precision."
           url="https://schedez.io"
         />
 
         <ServiceCard
-          title="A & F Laundry Services"
-          description="Clean, convenient, and reliable laundry and cleaning infrastructure."
+          title="A & F Laundry Care Studio™"
+          description="A fabric and garment care advisory brand dedicated to helping individuals, homeowners, and short-term rental hosts protect the value of their clothing and linens."
           url="#"
         />
 
+        <ServiceCard
+          title="A & F Textile Asset Advisory Group™"
+          description="A consulting and strategy brand that helps property operators, hospitality businesses, and retail organizations protect and manage textile assets more efficiently."
+          url="#"
+        />
+        
         <ServiceCard
           title="ARK Wellness"
           description="Health-focused operational services promoting balance and wellbeing."
