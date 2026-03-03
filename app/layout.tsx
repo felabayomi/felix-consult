@@ -2,6 +2,7 @@
 
 import "./globals.css"
 import Link from "next/link"
+import Script from "next/script" // ✅ ADDED
 import { usePathname } from "next/navigation"
 import { useState, useEffect } from "react"
 
@@ -41,6 +42,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-[#0B0B0F] text-white">
+
+        {/* ✅ Stripe Script Added */}
+        <Script
+          src="https://js.stripe.com/v3/buy-button.js"
+          strategy="afterInteractive"
+        />
 
         {/* NAVBAR */}
         <nav
@@ -115,6 +122,15 @@ export default function RootLayout({
             </div>
           )}
         </nav>
+
+        {/* ✅ STRIPE BUTTON INSERTED — NOTHING ELSE MODIFIED */}
+        <div className="pt-24 flex justify-center bg-black py-4">
+          <stripe-buy-button
+            buy-button-id="buy_btn_1T6yYuDZfar9hiaNRjaBAsc1"
+            publishable-key="pk_live_51QyLfCDZfar9hiaNkUJQR3EymJlPXZXWN9yFynWo4RdSFE0GCUkGcRHlDU3yCtRT7TwZQIkYgZNhV2aY1eydWtq700i96spfci"
+          >
+          </stripe-buy-button>
+        </div>
 
         {/* PAGE CONTENT */}
         <div className="pt-24 flex flex-col">
