@@ -3,6 +3,7 @@
 import "./globals.css"
 import Link from "next/link"
 import Script from "next/script"
+import React from "react"
 import { usePathname } from "next/navigation"
 import { useState, useEffect } from "react"
 
@@ -123,13 +124,12 @@ export default function RootLayout({
           )}
         </nav>
 
-        {/* Stripe Button (Inserted Only) */}
+        {/* Stripe Button (Safe – No JSX Custom Element) */}
         <div className="pt-24 flex justify-center">
-          <stripe-buy-button
-            buy-button-id="buy_btn_1T6zIlQ41M31TbLQJQx0bdFC"
-    publishable-key="pk_live_51PtDMyQ41M31TbLQQ2QwN3Yf8eba43z9X7hQNTnV1GM6EDnIJnjUiVtEJ5Ua1A4DoD8xoezeL7PfNTOzFIeFLaOi00SsptHeyf"
-  >
-          </stripe-buy-button>
+          {React.createElement("stripe-buy-button", {
+            "buy-button-id": "buy_btn_1T6zIlQ41M31TbLQJQx0bdFC",
+            "publishable-key": "pk_live_51PtDMyQ41M31TbLQQ2QwN3Yf8eba43z9X7hQNTnV1GM6EDnIJnjUiVtEJ5Ua1A4DoD8xoezeL7PfNTOzFIeFLaOi00SsptHeyf"
+          })}
         </div>
 
         {/* PAGE CONTENT */}
