@@ -2,8 +2,24 @@
 
 import "./globals.css"
 import Link from "next/link"
+import Script from "next/script"
 import { usePathname } from "next/navigation"
 import { useState, useEffect } from "react"
+
+const STRIPE_BUY_BUTTON_ID =
+  process.env.NEXT_PUBLIC_STRIPE_BUY_BUTTON_ID ?? "buy_btn_1T6yYuDZfar9hiaNRjaBAsc1"
+const STRIPE_PUBLISHABLE_KEY =
+  process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY ??
+  "pk_live_51QyLfCDZfar9hiaNkUJQR3EymJlPXZXWN9yFynWo4RdSFE0GCUkGcRHlDU3yCtRT7TwZQIkYgZNhV2aY1eydWtq700i96spfci"
+
+function StripeBuyButton() {
+  return (
+    <stripe-buy-button
+      buy-button-id={STRIPE_BUY_BUTTON_ID}
+      publishable-key={STRIPE_PUBLISHABLE_KEY}
+    ></stripe-buy-button>
+  )
+}
 
 export default function RootLayout({
   children,
@@ -41,6 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-[#0B0B0F] text-white">
+        <Script src="https://js.stripe.com/v3/buy-button.js" strategy="lazyOnload" />
 
         {/* NAVBAR */}
         <nav
@@ -70,6 +87,7 @@ export default function RootLayout({
               <Link href="/contact" className="text-gray-700 hover:text-black">
                 Contact
               </Link>
+              <StripeBuyButton />
             </div>
 
             {/* Mobile */}
@@ -112,6 +130,7 @@ export default function RootLayout({
               >
                 Contact
               </Link>
+              <StripeBuyButton />
             </div>
           )}
         </nav>
