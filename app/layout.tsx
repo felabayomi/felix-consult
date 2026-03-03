@@ -2,7 +2,7 @@
 
 import "./globals.css"
 import Link from "next/link"
-import Script from "next/script" // ✅ ADDED
+import Script from "next/script"
 import { usePathname } from "next/navigation"
 import { useState, useEffect } from "react"
 
@@ -43,7 +43,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-[#0B0B0F] text-white">
 
-        {/* ✅ Stripe Script Added */}
+        {/* Stripe Script */}
         <Script
           src="https://js.stripe.com/v3/buy-button.js"
           strategy="afterInteractive"
@@ -123,12 +123,12 @@ export default function RootLayout({
           )}
         </nav>
 
-        {/* ✅ STRIPE BUTTON INSERTED — NOTHING ELSE MODIFIED */}
-        <div className="pt-24 flex justify-center bg-black py-4">
+        {/* Stripe Button (Inserted Only) */}
+        <div className="pt-24 flex justify-center">
           <stripe-buy-button
-            buy-button-id="buy_btn_1T6yYuDZfar9hiaNRjaBAsc1"
-            publishable-key="pk_live_51QyLfCDZfar9hiaNkUJQR3EymJlPXZXWN9yFynWo4RdSFE0GCUkGcRHlDU3yCtRT7TwZQIkYgZNhV2aY1eydWtq700i96spfci"
-          >
+            buy-button-id="buy_btn_1T6zIlQ41M31TbLQJQx0bdFC"
+    publishable-key="pk_live_51PtDMyQ41M31TbLQQ2QwN3Yf8eba43z9X7hQNTnV1GM6EDnIJnjUiVtEJ5Ua1A4DoD8xoezeL7PfNTOzFIeFLaOi00SsptHeyf"
+  >
           </stripe-buy-button>
         </div>
 
