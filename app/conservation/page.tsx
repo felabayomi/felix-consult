@@ -58,27 +58,27 @@ export default function ConservationDivision() {
         <div className="grid md:grid-cols-2 gap-8">
 
           <DivisionItem
-            name="Wildlife of Africa Initiative Events"
-            description="Uniting conservation and community through curated environmental events."
-            url="#"
+            name="Wildlife of Africa Initiative Voice for Wildlife."
+            description="Uniting conservation and community through Storytelling and sharing conservation action stories."
+            url="https://wacicrew.org"
           />
 
           <DivisionItem
-            name="Wildlife of Africa Eco-Tourism"
+            name="Wildlife of Africa Eco-Tourism."
             description="Experience Africa’s wilderness while preserving its future."
-            url="#"
+            url="https://wildafricatour.felixconsult.co/"
           />
 
           <DivisionItem
-            name="Wildlife Encounters"
+            name="Wildlife Encounters."
             description="Discover the wildlife around you through immersive conservation storytelling."
-            url="#"
+            url="https://wildlifearoundus.felixconsult.co"
           />
 
           <DivisionItem
             name="Praxifex"
             description="Driving environmental sustainability innovation with practical solutions."
-            url="#"
+            url="https://praxinex.org/"
           />
 
           <DivisionItem
@@ -88,9 +88,9 @@ export default function ConservationDivision() {
           />
 
           <DivisionItem
-            name="Wildlife of Africa Conservation Initiative"
-            description="Community-centered organization protecting Africa’s wildlife."
-            url="https://wacicrew.org"
+            name="Wildlife of Africa Conservation Initiative."
+            description="vibrant online home for anyone who loves and wants to protect Africa’s wildlife — plants and animals — and is ready to act."
+            url="https://www.wildlifeofafrica.com/"
           />
 
           <DivisionItem
@@ -106,26 +106,26 @@ export default function ConservationDivision() {
           />
 
           <DivisionItem
-            name="A & F Wildlife Foundation"
-            description="Preserving wildlife and protecting future generations."
-            url="#"
+            name="A & F Wildlife Foundation, DBA Wildlife-Pedia."
+            description="A focused wildlife encyclopedia that collects and shares clear, simple information about animals and the natural world."
+            url="https://www.wildlife-pedia.com/"
           />
 
           <DivisionItem
-            name="Abaflix Emerald Farms"
+            name="Abaflix Emerald Farms."
             description="Fresh, sustainable aquaculture and poultry for a healthier tomorrow."
             url="#"
           />
 
           <DivisionItem
-            name="Nature Ethics Research Institute"
+            name="Nature Ethics Research Institute."
             description="Empowering harmony between humans and wildlife through ethical research."
             url="#"
           />
 
           <DivisionItem
-            name="Wildlife of Africa Con Init (Non-Profit)"
-            description="Structured conservation initiative integrating impact and community development."
+            name="Wildlife of Africa Con Init (Non-Profit)."
+            description="A community-centered conservation movement dedicated to protecting Africa’s wildlife — both plants and animals — by inspiring and equipping a growing generation of people who care and want to act."
             url="#"
           />
 
