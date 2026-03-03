@@ -60,11 +60,11 @@ export default function ConsultingDivision() {
       <div className="grid md:grid-cols-2 gap-8">
 
         <ServiceCard
-  title="Felix Consulting Group"
+  title="Felix Consulting Group."
   description="Strategic advisory and ecosystem architecture firm focused on institutional structuring, operational systems, and long-term growth design."
   link="https://felixconsult.co/"
 />
-
+        
 <ServiceCard
   title="FelixDGuide"
   description="Founder-led insights on strategy, structured growth, and ecosystem thinking across finance, travel, and impact platforms."
@@ -72,15 +72,15 @@ export default function ConsultingDivision() {
 />
 
 <ServiceCard
-  title="AdrianFelix Corporation"
+  title="AdrianFelix Corporation."
   description="Structured enterprise development and holding initiatives focused on scalable business architecture."
   link="https://felixconsult.co/"
 />
 
 <ServiceCard
-  title="Insightify Hub"
-  description="Professional development and strategic training platform designed to cultivate disciplined execution and institutional clarity."
-  link="#"
+  title="Insightify Hub (Inquiry Hub)."
+  description="A collaborative platform designed to support cohort-based research and learning journeys. We believe that meaningful inquiry happens best when people work together, share resources, and build on each other's insights."
+  link="https://inquiryhub.app"
 />
 
 <ServiceCard
@@ -90,23 +90,34 @@ export default function ConsultingDivision() {
 />
 
 <ServiceCard
-  title="Justice Beyond Borders"
+  title="Justice Beyond Borders."
   description="Global impact initiative focused on structural justice, institutional reform, and ethical systems integration."
   link="#"
 />
 
 <ServiceCard
-  title="Center for Spiritual Humanism"
+  title="Center for Spiritual Humanism."
   description="Philosophical and human-centered frameworks exploring structured ethics, spiritual development, and civic leadership."
   link="#"
 />
 
 <ServiceCard
-  title="Faith House Ministries Church"
+  title="Faith House Ministries Church."
   description="Faith-based institutional platform integrating spiritual leadership, community impact, and structured ministry systems."
   link="#"
 />
 
+  <ServiceCard
+  title="TFCG Strategy Center."
+  description="The Felix Consulting Group Strategy Room and Command Center — strategic discipline."
+  link="https://tfcgstrategycenter.felixconsult.co"
+/>
+
+   <ServiceCard
+  title="TFCG Chat."
+  description="Chat with Felix Consult to get help and explore ideas."
+  link="https://tfcgchat.felixconsult.co"
+/>
 
       </div>
 
