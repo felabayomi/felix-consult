@@ -64,6 +64,12 @@ export default function ConsultingDivision() {
   description="Strategic advisory and ecosystem architecture firm focused on institutional structuring, operational systems, and long-term growth design."
   link="https://felixconsult.co/"
 />
+
+  <ServiceCard
+  title="TFCG Chat."
+  description="Chat with Felix Consult to get help and explore ideas."
+  link="https://tfcgchat.felixconsult.co"
+/> 
         
 <ServiceCard
   title="FelixDGuide"
@@ -111,12 +117,6 @@ export default function ConsultingDivision() {
   title="TFCG Strategy Center."
   description="The Felix Consulting Group Strategy Room and Command Center — strategic discipline."
   link="https://tfcgstrategycenter.felixconsult.co"
-/>
-
-   <ServiceCard
-  title="TFCG Chat."
-  description="Chat with Felix Consult to get help and explore ideas."
-  link="https://tfcgchat.felixconsult.co"
 />
 
       </div>
