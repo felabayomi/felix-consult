@@ -74,7 +74,7 @@ export default function ServicesDivision() {
         />
 
         <ServiceCard
-          title="ARK Logistics." - An Errand Easy Delivery Company
+          title="ARK Logistics - An Errand Easy Delivery Company."
           description="Delivering Excellence, Moving Your World — A comprehensive logistics and delivery service designed to provide efficient, reliable, and scalable solutions for businesses and individuals, ensuring your goods reach their destination with care and precision."
           url="https://errandeasydelivery.com"
         />
