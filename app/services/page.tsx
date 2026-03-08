@@ -60,17 +60,17 @@ export default function ServicesDivision() {
           description="A community-focused online reservation platform helping restaurants manage bookings efficiently and elevate guest experience."
           url="https://tablepilot.io"
         />
+
+                <ServiceCard
+          title="Adrian's Styled Collection"
+          description="Elevate Your Style with Timeless Elegance — A curated fashion collection blending classic sophistication with modern trends, designed to empower your wardrobe with versatile and stylish pieces for every occasion."
+          url="http://adrianstyledcollection.com"
+        />
         
         <ServiceCard
           title="Errand Easy"
           description="Professional concierge services simplifying personal and business errands."
           url="https://errandeasy.app/"
-        />
-
-        <ServiceCard
-          title="EasyDesk Pro - Prototype."
-          description="Modern coworking spaces empowering freelancers, teams, and startups."
-          url="https://ezdesk.pro"
         />
 
         <ServiceCard
@@ -90,6 +90,13 @@ export default function ServicesDivision() {
           description="A consulting and strategy brand that helps property operators, hospitality businesses, and retail organizations protect and manage textile assets more efficiently."
           url="#"
         />
+        
+         <ServiceCard
+          title="EasyDesk Pro - Prototype."
+          description="Modern coworking spaces empowering freelancers, teams, and startups."
+          url="https://ezdesk.pro"
+        
+          /> 
         
         <ServiceCard
           title="ARK Wellness"
@@ -112,12 +119,6 @@ export default function ServicesDivision() {
         <ServiceCard
           title="ARK Sports Lounge"
           description="Where Sports and Leisure Meet — A dynamic sports lounge offering a vibrant atmosphere for fans to enjoy live games, socialize, and experience the thrill of sports in a unique setting."
-          url="#"
-        />
-
-        <ServiceCard
-          title="Adrian's Styled Collection"
-          description="Elevate Your Style with Timeless Elegance — A curated fashion collection blending classic sophistication with modern trends, designed to empower your wardrobe with versatile and stylish pieces for every occasion."
           url="#"
         />
 
