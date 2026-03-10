@@ -28,6 +28,12 @@ export default function FinancialDivision() {
       url: "https://dyidebt.org/",
     },
     {
+      name: "Letter Vault",
+      description: `Every letter. Tracked. Resolved. Protected.
+Turn your mail into an organized command center. Scan letters, track deadlines, and stay on top of bills, notices, and important documents in one place.`,
+      url: "https://lettervault.us",
+    },
+    {
       name: "Felix Pay",
       description: "Secure digital payment infrastructure.",
       url: "https://felixpay.net",
@@ -66,7 +72,7 @@ export default function FinancialDivision() {
     {
       name: "Letter Vault",
       description: `Every letter. Tracked. Resolved. Protected.
-AI-powered letter management that turns stacks of mail into organized, actionable records. Know what arrived, what it means, and what to do next.`,
+Turn your mail into an organized command center. Scan letters, track deadlines, and stay on top of bills, notices, and important documents in one place.`,
       url: "https://lettervault.us",
     },
     {
