@@ -58,17 +58,23 @@ export default function TravelDivision() {
         <div className="grid md:grid-cols-2 gap-8">
 
           <DivisionItem
-            name="City Discoverer"
+            name="City Discoverer."
             description="GPS-powered city recognition with personalized recommendations for dining, attractions, and local experiences."
             url="https://citydiscoverer.app"
           />
 
           <DivisionItem
-            name="City Discoverer Travel Planner (AI)"
+            name="City Discoverer Travel Planner (AI)."
             description="AI-generated personalized itineraries tailored to your travel style, preferences, and destination."
             url="https://plan.citydiscoverer.ai"
+          /> 
+          
+<DivisionItem
+            name="Travel Center Hub."
+            description="Your gateway to flights, hotels, cruises, car rentals, and travel experience."
+            url="https://travelcenterhub.com"
           />
-
+          
           <DivisionItem
             name="StreamPilot"
             description="Manage and discover streaming content across platforms in one centralized ecosystem."
