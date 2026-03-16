@@ -60,7 +60,7 @@ export default function TravelDivision() {
           <DivisionItem
             name="City Discoverer."
             description="GPS-powered city recognition with personalized recommendations for dining, attractions, and local experiences."
-            url="https://citydiscoverer.app"
+            url="https://discoverer.city"
           />
 
           <DivisionItem
