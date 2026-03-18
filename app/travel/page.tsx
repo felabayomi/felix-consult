@@ -76,34 +76,36 @@ export default function TravelDivision() {
           />
           
           <DivisionItem
+            name="Expedition America Travel Co."
+            description="Explore the diverse landscapes and cultural heritage of America through guided expeditions."
+            url="https://expeditionamerica.us"
+          />
+          
+          <DivisionItem
             name="StreamPilot"
             description="Manage and discover streaming content across platforms in one centralized ecosystem."
             url="https://apps.apple.com/us/app/streampilot/id6757970417"
           />
 
           <DivisionItem
-            name="Wildlife Films"
+            name="Wildlife Films."
             description="Discover, catalog, and track wildlife documentaries and nature films worldwide."
             url="https://apps.apple.com/us/app/streampilot/id6757970417"
           />
 
           <DivisionItem
-            name="City Discoverer Agent SchedEZ"
+            name="City Discoverer Agent SchedEZ."
             description="Schedule sessions with travel consultants for structured itinerary planning and local insights."
-            url="https://citydiscoverer.guide"
+            url="https://citydiscoverer.guide/book"
           />
 
-          <DivisionItem name="Ariyike Tours"
+          <DivisionItem name="Ariyike Tours."
             description="Curated travel experiences and guided tours showcasing local culture and attractions."
-          url="#" />
-
+          url="#" 
+            />
+          
           <DivisionItem
-            name="Expedition America"
-            description="Explore the diverse landscapes and cultural heritage of America through guided expeditions."
-            url="#"
-          />
-          <DivisionItem
-            name="In City Experience"
+            name="In City Experience."
             description="Immerse yourself in urban adventures and local experiences within major cities."
             url="#"
           />
