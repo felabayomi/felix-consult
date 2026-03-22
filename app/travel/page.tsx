@@ -58,6 +58,12 @@ export default function TravelDivision() {
         <div className="grid md:grid-cols-2 gap-8">
 
           <DivisionItem
+            name="Schedez Travel Planning."
+            description="I help you plan your trip, find the best options, compare pricing, and handle all the booking and back-end work."
+            url="https://schedez.io/"
+          />
+          
+          <DivisionItem
             name="City Discoverer."
             description="GPS-powered city recognition with personalized recommendations for dining, attractions, and local experiences."
             url="https://discoverer.city"
@@ -112,7 +118,7 @@ export default function TravelDivision() {
           <DivisionItem
             name="LiveLoops"
             description="Interactive live music and entertainment experiences for travelers."
-            url="#"
+            url="https://live-loop.live/"
           />
           <DivisionItem
             name="Travel with AdrianFelix"
