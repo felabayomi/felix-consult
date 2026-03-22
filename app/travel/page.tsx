@@ -62,6 +62,12 @@ export default function TravelDivision() {
             description="I help you plan your trip, find the best options, compare pricing, and handle all the booking and back-end work."
             url="https://schedez.io/"
           />
+
+          <DivisionItem
+            name="Expedition America Dispatch."
+            description="Rediscover America One State at a Time"
+            url="https://expeditionamerica.online/"
+          />
           
           <DivisionItem
             name="City Discoverer."
