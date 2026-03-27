@@ -1,14 +1,21 @@
 import { NextResponse } from "next/server"
 import { Resend } from "resend"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+let resend: Resend | null = null
+
+function getResend(): Resend {
+  if (!resend) {
+    resend = new Resend(process.env.RESEND_API_KEY)
+  }
+  return resend
+}
 
 export async function POST(req: Request) {
   try {
     const { name, email, message, intent } = await req.json()
 
     // 1️⃣ ADMIN NOTIFICATION
-    await resend.emails.send({
+    await getResend().emails.send({
       from: "Felix Consulting Group <hello@felixconsult.co>",
       to: "thefelixconsultinggroup@gmail.com", // your admin email
       subject: "New Ecosystem Inquiry",
@@ -25,7 +32,7 @@ export async function POST(req: Request) {
     })
 
     // 2️⃣ USER CONFIRMATION EMAIL
-    await resend.emails.send({
+    await getResend().emails.send({
       from: "Felix Consulting Group <hello@felixconsult.co>",
       to: email,
       subject: "We Received Your Request",
