@@ -70,10 +70,10 @@ Turn your mail into an organized command center. Scan letters, track deadlines, 
       url: "https://apps.apple.com/us/app/wealth-watch/id6758687724",
     },
     {
-      name: "Letter Vault",
+      name: "Letter Vault APP",
       description: `Every letter. Tracked. Resolved. Protected.
 Turn your mail into an organized command center. Scan letters, track deadlines, and stay on top of bills, notices, and important documents in one place.`,
-      url: "https://lettervault.us",
+      url: "https://apps.apple.com/us/app/letter-vault/id6760270008",
     },
     {
       name: "Abaflix Capital",
@@ -109,11 +109,10 @@ Turn your mail into an organized command center. Scan letters, track deadlines, 
             <Link
               key={item.href}
               href={item.href}
-              className={`relative pb-4 transition ${
-                pathname === item.href
-                  ? "text-[#C6A75E] font-semibold"
-                  : "text-gray-400 hover:text-white"
-              }`}
+              className={`relative pb-4 transition ${pathname === item.href
+                ? "text-[#C6A75E] font-semibold"
+                : "text-gray-400 hover:text-white"
+                }`}
             >
               {item.label}
               {pathname === item.href && (

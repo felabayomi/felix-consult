@@ -81,13 +81,13 @@ export default function ServicesDivision() {
           <ServiceCard
             title="A & F Laundry Care Studio™"
             description="A fabric and garment care advisory brand dedicated to helping individuals, homeowners, and short-term rental hosts protect the value of their clothing and linens."
-            url="#"
+            url="https://aflaundry.com/"
           />
 
           <ServiceCard
             title="A & F Textile Asset Advisory Group™"
             description="A consulting and strategy brand that helps property operators, hospitality businesses, and retail organizations protect and manage textile assets more efficiently."
-            url="#"
+            url="https://aflaundry.com/"
           />
 
           <ServiceCard
@@ -106,7 +106,7 @@ export default function ServicesDivision() {
           <ServiceCard
             title="Abaflix Emerald Farms"
             description="Sustainable food and agricultural infrastructure initiatives."
-            url="#"
+            url="https://abaflix.us/"
           />
 
           <ServiceCard
@@ -118,7 +118,7 @@ export default function ServicesDivision() {
           <ServiceCard
             title="ARK Sports Lounge"
             description="Where Sports and Leisure Meet — A dynamic sports lounge offering a vibrant atmosphere for fans to enjoy live games, socialize, and experience the thrill of sports in a unique setting."
-            url="#"
+            url="https://apps.apple.com/us/app/fanlore/id6760257973"
           />
 
           <ServiceCard
