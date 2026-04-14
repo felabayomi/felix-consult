@@ -110,6 +110,10 @@ export default function TravelDivision() {
             url="https://citydiscoverer.guide/book"
           />
 
+          <DivisionItem name="FanLore"
+            description="Sports Stories by Real Fans. Share your greatest sports memories with fans who get it."
+            url="https://apps.apple.com/us/app/fanlore/id6760257973"
+          />
           <DivisionItem name="Ariyike Tours."
             description="Curated travel experiences and guided tours showcasing local culture and attractions."
             url="#"
