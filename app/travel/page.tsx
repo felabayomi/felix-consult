@@ -34,11 +34,10 @@ export default function TravelDivision() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative pb-4 transition ${
-                  pathname === item.href
-                    ? "text-[#C6A75E] font-semibold"
-                    : "text-gray-400 hover:text-white"
-                }`}
+                className={`relative pb-4 transition ${pathname === item.href
+                  ? "text-[#C6A75E] font-semibold"
+                  : "text-gray-400 hover:text-white"
+                  }`}
               >
                 {item.label}
                 {pathname === item.href && (
@@ -68,7 +67,7 @@ export default function TravelDivision() {
             description="Rediscover America One State at a Time"
             url="https://expeditionamerica.online/"
           />
-          
+
           <DivisionItem
             name="City Discoverer."
             description="GPS-powered city recognition with personalized recommendations for dining, attractions, and local experiences."
@@ -79,20 +78,20 @@ export default function TravelDivision() {
             name="City Discoverer Travel Planner (AI)."
             description="AI-generated personalized itineraries tailored to your travel style, preferences, and destination."
             url="https://plan.citydiscoverer.ai"
-          /> 
-          
-<DivisionItem
+          />
+
+          <DivisionItem
             name="Travel Center Hub."
             description="Your gateway to flights, hotels, cruises, car rentals, and travel experience."
             url="https://travelcenterhub.com"
           />
-          
+
           <DivisionItem
             name="Expedition America Travel Co."
             description="Explore the diverse landscapes and cultural heritage of America through guided expeditions."
             url="https://expeditionamerica.us"
           />
-          
+
           <DivisionItem
             name="StreamPilot"
             description="Manage and discover streaming content across platforms in one centralized ecosystem."
@@ -113,24 +112,24 @@ export default function TravelDivision() {
 
           <DivisionItem name="Ariyike Tours."
             description="Curated travel experiences and guided tours showcasing local culture and attractions."
-          url="#" 
-            />
-          
+            url="#"
+          />
+
           <DivisionItem
             name="In City Experience."
             description="Immerse yourself in urban adventures and local experiences within major cities."
             url="#"
           />
           <DivisionItem
-            name="LiveLoops"
+            name="LiveLoop"
             description="Interactive live music and entertainment experiences for travelers."
-            url="https://live-loop.live/"
+            url="https://apps.apple.com/us/app/live-loop/id6760877693"
           />
           <DivisionItem
             name="Travel with AdrianFelix"
             description="Personalized travel experiences curated by AdrianFelix for unique adventures."
             url="#"
-         />
+          />
 
         </div>
 
@@ -139,10 +138,10 @@ export default function TravelDivision() {
   )
 }
 
-function DivisionItem({ name, description, url }: { 
-  name: string; 
-  description?: string; 
-  url: string 
+function DivisionItem({ name, description, url }: {
+  name: string;
+  description?: string;
+  url: string
 }) {
   return (
     <a
