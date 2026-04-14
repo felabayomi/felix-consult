@@ -119,12 +119,19 @@ export default function TravelDivision() {
             name="In City Experience."
             description="Immerse yourself in urban adventures and local experiences within major cities."
             url="#"
+
           />
           <DivisionItem
             name="LiveLoop"
             description="Interactive live music and entertainment experiences for travelers."
             url="https://apps.apple.com/us/app/live-loop/id6760877693"
           />
+          <DivisionItem
+            name="EventLoop by LiveLoop"
+            description={`Built to answer one question every traveler asks: "What's happening while I'm here?"`}
+            url="https://web.live-loop.live/"
+          />
+
           <DivisionItem
             name="Travel with AdrianFelix"
             description="Personalized travel experiences curated by AdrianFelix for unique adventures."
