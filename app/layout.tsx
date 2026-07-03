@@ -80,7 +80,7 @@ export default function RootLayout({
                 Pricing
               </Link>
               <Link href="/contact" className="text-gray-700 hover:text-black">
-                Discovery Call
+                Contact
               </Link>
             </div>
 
@@ -136,7 +136,7 @@ export default function RootLayout({
                 className="block text-gray-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Discovery Call
+                Contact
               </Link>
             </div>
           )}
