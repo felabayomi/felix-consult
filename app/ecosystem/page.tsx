@@ -109,7 +109,7 @@ const categories = [
       { label: "VoteModeler", url: "#" },
       { label: "Praxis-Nexus", url: "#" },
       { label: "TFCGChat", url: "https://tfcgchat.felixconsult.co" },
-      { label: "Campaign Signal Studio", url: "#" },
+      { label: "Campaign Signal Studio", url: "https://campaignsignal.us/" },
       { label: "App Showcase", url: "https://appaggregator.felixconsult.co/" },
       { label: "BeaconNewsHub", url: "#" },
       { label: "MediaStreamHost", url: "https://imagediscoverer.xyz/" },

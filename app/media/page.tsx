@@ -117,7 +117,7 @@ export default function MediaDivision() {
 
         <DivisionItem
           name="Campaign Signal Studio"
-          url="#"
+          url="https://campaignsignal.us/"
         />
 
         <DivisionItem
