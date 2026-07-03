@@ -133,6 +133,7 @@ const categories = [
       { label: "WACI Action Hub", url: "https://wacihub.org" },
       { label: "Ecosphere Nexus", url: "#" },
       { label: "A & F Wildlife Foundation, DBA Wildlife-Pedia", url: "https://www.wildlife-pedia.com/" },
+      { label: "WildlifePedia", url: "https://wildlife-pedia-web.vercel.app/" },
       { label: "Abaflix Emerald Farms (Conservation)", url: "#" },
       { label: "Nature Ethics Research Institute", url: "#" },
       { label: "Wildlife of Africa Con Init (Non-Profit)", url: "#" },

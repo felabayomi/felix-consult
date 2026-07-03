@@ -120,6 +120,12 @@ export default function ConservationDivision() {
           />
 
           <DivisionItem
+            name="WildlifePedia"
+            description="Wildlife intelligence for everyday people."
+            url="https://wildlife-pedia-web.vercel.app/"
+          />
+
+          <DivisionItem
             name="Abaflix Emerald Farms (Conservation)"
             description="Fresh, sustainable aquaculture and poultry for a healthier tomorrow."
             url="#"
