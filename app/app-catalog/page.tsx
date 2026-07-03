@@ -576,6 +576,16 @@ export default function AppCatalogPage() {
                     <Link href="/contact" className="inline-block bg-[#C6A75E] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90">Not sure which app fits? Get a $99 App Business Review</Link>
                 </section>
 
+                <section className="mb-16 border border-[#C6A75E]/20 rounded-2xl p-8 bg-[#101014]">
+                    <h2 className="text-3xl font-semibold mb-4">Why not just use AI?</h2>
+                    <p className="text-gray-300 mb-6 leading-relaxed">
+                        AI can generate code, but code is not a launched app. Felix Consult gives you a working app foundation, deployment support, branding guidance, offer positioning, and customization help. You are not buying prompts. You are buying a shortcut from idea to live product.
+                    </p>
+                    <Link href="/contact" className="inline-block bg-[#C6A75E] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90">
+                        Get My App Matched
+                    </Link>
+                </section>
+
                 <section className="mb-20">
                     <h2 className="text-3xl font-semibold mb-3">Featured App Packages</h2>
                     <p className="text-gray-400 mb-8">Start here. These are the fastest-to-sell app offers.</p>
@@ -600,17 +610,6 @@ export default function AppCatalogPage() {
                                 </div>
                             </div>
                         ))}
-                    </div>
-                </section>
-
-                <section className="mb-20 border border-[#C6A75E]/20 rounded-2xl p-8 bg-[#101014]">
-                    <h2 className="text-3xl font-semibold mb-4">Why Not Just Use AI Alone?</h2>
-                    <p className="text-gray-300 mb-4">You are buying a deployable foundation, not random code output.</p>
-                    <div className="grid md:grid-cols-2 gap-4 text-gray-400">
-                        <p>Ready-made app architecture that already solves a real workflow.</p>
-                        <p>Branding and deployment support from first call to launch.</p>
-                        <p>Faster path to revenue than building from a blank prompt.</p>
-                        <p>Post-launch help to improve retention and conversion.</p>
                     </div>
                 </section>
 

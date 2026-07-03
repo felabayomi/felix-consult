@@ -163,6 +163,55 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* WHY NOT JUST USE AI */}
+      <section className="py-24 px-6 border-t border-gray-800">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#D4AF37]">
+            Why not just use AI?
+          </h2>
+          <p className="text-gray-300 text-lg leading-relaxed mb-8">
+            AI can generate code, but code is not a launched app. Felix Consult gives you a working app foundation, deployment support, branding guidance, offer positioning, and customization help. You are not buying prompts. You are buying a shortcut from idea to live product.
+          </p>
+          <Link
+            href="/contact"
+            className="inline-block bg-[#D4AF37] text-black px-7 py-3 rounded-md font-semibold hover:opacity-90 transition"
+          >
+            Get My App Matched
+          </Link>
+        </div>
+      </section>
+
+      {/* FEATURED APP CATALOG */}
+      <section className="py-24 px-6 border-t border-gray-800">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+          Featured App Catalog
+        </h2>
+        <p className="text-gray-400 text-center max-w-3xl mx-auto mb-12">
+          Start with ready-made app foundations built for real launch outcomes.
+        </p>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {[
+            { name: "ReserveEZ / TablePilot", type: "Booking and reservations", href: "/app-catalog" },
+            { name: "Letter Vault", type: "Document and mail organizer", href: "/app-catalog" },
+            { name: "BillWatch / ExpenseWatch", type: "Finance tracking", href: "/app-catalog" },
+            { name: "City Discoverer / Travel Planner", type: "Travel and itinerary", href: "/app-catalog" },
+            { name: "Errand Easy / ARK Logistics", type: "Service and delivery ops", href: "/app-catalog" },
+            { name: "Tax Automator", type: "Tax workflow automation", href: "/app-catalog" },
+          ].map((app, i) => (
+            <Link
+              key={i}
+              href={app.href}
+              className="bg-[#0B0E14] border border-gray-800 rounded-lg p-8 hover:border-[#D4AF37] transition"
+            >
+              <h3 className="text-xl font-semibold mb-2">{app.name}</h3>
+              <p className="text-gray-400 text-sm mb-4">{app.type}</p>
+              <span className="text-[#D4AF37] font-medium">View In App Catalog →</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* FIND IT SECTION */}
       <section className="py-24 px-6 border-t border-gray-800 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
