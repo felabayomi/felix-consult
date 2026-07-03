@@ -142,7 +142,7 @@ export default function ConsultingDivision() {
           <ServiceCard
             title="WACI-Project-Hub"
             description="Project operations hub for coordinated conservation initiatives, reporting workflows, and field execution."
-            link="#"
+            link="https://projecthub.wildlifeafrica.org/"
           />
 
           <ServiceCard

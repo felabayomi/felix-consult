@@ -159,7 +159,7 @@ const categories = [
       { label: "TFCG Strategy Center", url: "https://tfcgstrategycenter.felixconsult.co" },
       { label: "Cicivor (Civicos Pro)", url: "https://civicos.pro" },
       { label: "WACI", url: "#" },
-      { label: "WACI-Project-Hub", url: "#" },
+      { label: "WACI-Project-Hub", url: "https://projecthub.wildlifeafrica.org/" },
       { label: "Capital-Regime-Analysis", url: "https://abaflix.us/" },
       { label: "Felix Consult", url: "https://felixconsult.co/" },
       { label: "Civic Candidate Support Platform (CCSP)", url: "https://civicos.pro/" },
