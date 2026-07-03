@@ -191,7 +191,7 @@ export default function TravelDivision() {
           <DivisionItem
             name="CityDayInt"
             description="International city content and destination intelligence publishing workflow."
-            url="#"
+            url="https://international.citydiscoverer.guide/"
           />
 
           <DivisionItem
@@ -209,7 +209,13 @@ export default function TravelDivision() {
           <DivisionItem
             name="City-Discoverer-Port"
             description="City Discoverer deployment variant for port, city, and transit discovery."
-            url="#"
+            url="https://discoverer.city/"
+          />
+
+          <DivisionItem
+            name="City-Discoverer-Port (Mobile App)"
+            description="City Discoverer companion iOS app for location-based city discovery."
+            url="https://apps.apple.com/us/app/city-discoverer-companion/id6759014495"
           />
 
           <DivisionItem
