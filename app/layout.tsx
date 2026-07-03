@@ -73,6 +73,9 @@ export default function RootLayout({
               <Link href="/ecosystem" className="text-gray-700 hover:text-black">
                 Solutions
               </Link>
+              <Link href="/app-catalog" className="text-gray-700 hover:text-black">
+                App Catalog
+              </Link>
               <Link href="/pricing" className="text-gray-700 hover:text-black">
                 Pricing
               </Link>
@@ -113,6 +116,13 @@ export default function RootLayout({
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Solutions
+              </Link>
+              <Link
+                href="/app-catalog"
+                className="block text-gray-700"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                App Catalog
               </Link>
               <Link
                 href="/pricing"
