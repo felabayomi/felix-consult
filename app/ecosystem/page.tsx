@@ -162,7 +162,7 @@ const categories = [
       { label: "WACI-Project-Hub", url: "#" },
       { label: "Capital-Regime-Analysis", url: "https://abaflix.us/" },
       { label: "Felix Consult", url: "https://felixconsult.co/" },
-      { label: "Civic Candidate Support Platform (CCSP)", url: "#" },
+      { label: "Civic Candidate Support Platform (CCSP)", url: "https://civicos.pro/" },
     ],
   },
   {

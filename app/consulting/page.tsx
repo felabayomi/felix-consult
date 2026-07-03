@@ -160,7 +160,7 @@ export default function ConsultingDivision() {
           <ServiceCard
             title="Civic Candidate Support Platform (CCSP)"
             description="Campaign operations platform built to support candidate teams with structured planning and execution systems."
-            link="#"
+            link="https://civicos.pro/"
           />
 
         </div>
