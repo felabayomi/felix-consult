@@ -31,8 +31,8 @@ export default function RootLayout({
     <Link
       href={href}
       className={`transition ${pathname === href
-          ? "text-[#C6A75E] font-semibold"
-          : "text-gray-400 hover:text-[#C6A75E]"
+        ? "text-[#C6A75E] font-semibold"
+        : "text-gray-400 hover:text-[#C6A75E]"
         }`}
     >
       {label}
@@ -52,8 +52,8 @@ export default function RootLayout({
         {/* NAVBAR */}
         <nav
           className={`fixed w-full top-0 z-50 transition-all ${scrolled
-              ? "bg-white shadow-md border-b border-gray-200"
-              : "bg-white"
+            ? "bg-white shadow-md border-b border-gray-200"
+            : "bg-white"
             }`}
         >
           <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
@@ -75,6 +75,9 @@ export default function RootLayout({
               </Link>
               <Link href="/services" className="text-gray-700 hover:text-black">
                 Services
+              </Link>
+              <Link href="/pricing" className="text-gray-700 hover:text-black">
+                Pricing
               </Link>
               <Link href="/contact" className="text-gray-700 hover:text-black">
                 Discovery Call
@@ -120,6 +123,13 @@ export default function RootLayout({
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Services
+              </Link>
+              <Link
+                href="/pricing"
+                className="block text-gray-700"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Pricing
               </Link>
               <Link
                 href="/contact"
