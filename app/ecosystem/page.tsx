@@ -104,7 +104,7 @@ const categories = [
       { label: "WealthWatch (App Platform)", url: "https://apps.apple.com/us/app/wealth-watch/id6758687724" },
       { label: "50USAStates", url: "https://www.expeditionamerica.online/" },
       { label: "DailyFelix-WordofDay", url: "https://faithhouse.app/" },
-      { label: "WildFilm-Tracker", url: "#" },
+      { label: "WildFilm-Tracker", url: "https://apps.apple.com/us/app/wildlifefilms/id6758022608" },
       { label: "ElectionPredictor", url: "https://electionpredictor.net/" },
       { label: "VoteModeler", url: "#" },
       { label: "Praxis-Nexus", url: "https://praxinex.org/" },
