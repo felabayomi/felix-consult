@@ -146,12 +146,12 @@ Turn your mail into an organized command center. Scan letters, track deadlines, 
       {/* Bottom Institutional Statement */}
       <section className="mt-24 border-t border-gray-800 pt-16 text-center">
         <h2 className="text-2xl font-semibold mb-6">
-          Structured Financial Architecture — Not Isolated Tools
+          Ready-Made Financial App Foundations — Not Isolated Tools
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto">
-          These platforms are designed to function independently or
-          integrate into a larger wealth-building framework.
-          Deploy one system — or architect a complete financial stack.
+          These platforms can run as standalone apps or connect into
+          a larger money-management setup.
+          Launch one app fast, or combine multiple tools into a complete stack.
         </p>
       </section>
 

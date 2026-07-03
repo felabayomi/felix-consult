@@ -90,7 +90,7 @@ export default function HomePage() {
               title: "App Modernization",
               desc: "For businesses with legacy apps or fragmented workflows that need speed and clarity.",
               items: [
-                "UX and architecture audit to remove bottlenecks.",
+                "UX and app foundation audit to remove bottlenecks.",
                 "Migration to a scalable Next.js and API stack.",
                 "Performance, SEO, and conversion optimization."
               ],
@@ -100,7 +100,7 @@ export default function HomePage() {
               title: "Revenue Feature Studio",
               desc: "For teams that already have users and need monetization and growth features.",
               items: [
-                "Payments, subscriptions, and offer architecture.",
+                "Payments, subscriptions, and pricing setup.",
                 "Admin workflows for operations and content teams.",
                 "A/B-ready growth loops and engagement triggers."
               ],
@@ -128,9 +128,9 @@ export default function HomePage() {
             },
             {
               title: "Custom Platform Build",
-              desc: "For organizations that need a purpose-built platform aligned to a specific operating model.",
+              desc: "For organizations that need a purpose-built platform aligned to a specific business model.",
               items: [
-                "Domain-specific architecture and data models.",
+                "Ready-made app foundations with your domain data model.",
                 "Multi-role dashboards and operational tooling.",
                 "Secure cloud deployment and release support."
               ],

@@ -62,8 +62,8 @@ export default function FounderPage() {
           </p>
 
           <ul className="space-y-3 text-gray-300">
-            <li>• Strategic Planning & Institutional Structuring</li>
-            <li>• Workflow & Operational Architecture</li>
+            <li>• Strategic Planning & Practical Rollout Plans</li>
+            <li>• Workflow & Operational App Design</li>
             <li>• Ecosystem Design & Venture Integration</li>
             <li>• CRM & Infrastructure Systems</li>
             <li>• Brand & Reputation Positioning</li>
@@ -97,7 +97,7 @@ export default function FounderPage() {
     {/* CASE 1 */}
     <div className="border border-[#C6A75E]/20 rounded-xl p-8 bg-[#111114]">
       <h3 className="text-xl font-semibold mb-3 text-white">
-        Financial Ecosystem Architecture
+        Financial App Foundation Stack
       </h3>
 
       <p className="text-gray-400 mb-4">
@@ -152,11 +152,11 @@ export default function FounderPage() {
 
   </div>
 
-{/* ECOSYSTEM ARCHITECTURE DIAGRAM (PURE SVG) */}
+{/* APP FOUNDATION DIAGRAM (PURE SVG) */}
 <section className="mt-20 mb-8">
   <h2 className="text-3xl font-semibold mb-12 text-[#C6A75E] text-center">
 
-    Ecosystem Architecture Model
+    App Foundation Model
   </h2>
   <div className="w-24 h-[2px] bg-[#C6A75E] mx-auto mb-12 opacity-60" />
 
@@ -168,7 +168,7 @@ export default function FounderPage() {
         viewBox="0 0 1200 780"
         className="w-full h-auto"
         role="img"
-        aria-label="Ecosystem Architecture Model diagram showing four connected layers"
+        aria-label="App Foundation Model diagram showing four connected layers"
         preserveAspectRatio="xMidYMid meet"
       >
         <defs>
@@ -235,7 +235,7 @@ export default function FounderPage() {
           Financial & Strategic Systems
         </text>
         <text x="600" y="612" textAnchor="middle" fill="#AAB0C0" fontSize="16" fontFamily="ui-sans-serif, system-ui">
-          Payments, wealth platforms, advisory frameworks, and growth architecture.
+          Payments, wealth platforms, advisory workflows, and growth systems.
         </text>
         <line x1="600" y1="510" x2="600" y2="530" stroke="#C6A75E" strokeOpacity="0.35" strokeWidth="3" />
 

@@ -50,17 +50,17 @@ export default function ConsultingDivision() {
         </h2>
 
         <p className="text-gray-400 max-w-3xl mb-12">
-          These entities represent the structured advisory, institutional,
-          and strategic frameworks within the Felix ecosystem.
-          Each platform strengthens long-term ecosystem architecture,
-          leadership development, and institutional growth.
+          These services focus on practical product direction, launch planning,
+          and operating clarity.
+          Each offer helps buyers move from idea to shipped app,
+          better delivery workflows, and measurable growth.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">
 
           <ServiceCard
             title="Felix Consulting Group."
-            description="Strategic advisory and ecosystem architecture firm focused on institutional structuring, operational systems, and long-term growth design."
+            description="Strategic product advisory focused on ready-made app foundations, operational workflows, and launch execution."
             link="https://felixconsult.co/"
           />
 
@@ -78,7 +78,7 @@ export default function ConsultingDivision() {
 
           <ServiceCard
             title="AdrianFelix Corporation."
-            description="Structured enterprise development and holding initiatives focused on scalable business architecture."
+            description="Enterprise development initiatives focused on scalable products and repeatable delivery systems."
             link="https://felixconsult.co/"
           />
 

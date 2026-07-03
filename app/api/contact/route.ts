@@ -50,7 +50,7 @@ export async function POST(req: Request) {
           </p>
           <br/>
           <p>
-            Structured systems. Clear architecture. Long-term scale.
+            Ready-made app foundations. Branded deployment. Launch support.
           </p>
           <p><strong>Felix Consulting Group</strong><br/>
           https://felixconsult.co</p>

@@ -120,7 +120,7 @@ export default function ContactPage() {
 
         {/* Authority Reinforcement */}
         <div className="mt-16 text-gray-500 text-sm">
-          Structured systems. Clear architecture. Long-term scale.
+          Ready-made app foundations. Branded deployment. Launch support.
         </div>
 
       </div>

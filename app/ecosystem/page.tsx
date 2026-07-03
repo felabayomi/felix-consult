@@ -23,7 +23,7 @@ export default function EcosystemPage() {
           </p>
 
           <p className="text-gray-500">
-            Choose your closest fit, then we scope implementation based on your goals, timeline, and operating model.
+            Choose your closest fit, then we scope implementation based on your goals, timeline, and business model.
           </p>
         </section>
 
