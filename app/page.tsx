@@ -7,15 +7,15 @@ export default function HomePage() {
       {/* HERO */}
       <section className="pt-32 pb-24 px-6 text-center bg-gradient-to-b from-[#0B0E14] to-[#05060A]">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Felix Consulting Group
+          Launch Your Own App In 72 Hours
         </h1>
 
         <p className="text-[#D4AF37] text-lg md:text-xl mb-4">
-          Build, Launch, And Scale Revenue-Ready Apps Faster
+          Without Starting From Scratch
         </p>
 
         <p className="max-w-3xl mx-auto text-gray-400 mb-10">
-          We partner with founders and operators to ship production apps in weeks, not quarters. Start from proven foundations, customize where it matters, and launch with measurable business outcomes.
+          Pick an app. We will brand it, deploy it, and help you launch it. Built for entrepreneurs, agencies, consultants, creators, churches, and small business owners who want to own an app fast.
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
@@ -23,18 +23,18 @@ export default function HomePage() {
             href="/contact"
             className="bg-[#D4AF37] text-black px-7 py-3 rounded-md font-semibold hover:opacity-90 transition"
           >
-            Book Discovery Call
+            Start My App Launch
           </Link>
           <Link
             href="/ecosystem"
             className="border border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded-md font-semibold hover:bg-[#D4AF37] hover:text-black transition"
           >
-            See Build Tracks
+            Pick An App Template
           </Link>
         </div>
 
         <p className="mt-5 text-sm text-gray-500">
-          30-minute call. Clear scope. Practical next steps.
+          Fast setup. Branded delivery. Launch support included.
         </p>
       </section>
 
@@ -63,7 +63,7 @@ export default function HomePage() {
       {/* QUOTE */}
       <section className="py-24 px-6 text-center border-t border-gray-800">
         <p className="text-xl md:text-2xl max-w-4xl mx-auto text-gray-200">
-          "We do not sell slide decks. We ship software products that solve a business problem and can scale with your operation."
+          &ldquo;We do not sell slide decks. We ship software products that solve a business problem and can scale with your operation.&rdquo;
         </p>
       </section>
 
