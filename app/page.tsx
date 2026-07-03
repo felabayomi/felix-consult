@@ -11,25 +11,25 @@ export default function HomePage() {
         </h1>
 
         <p className="text-[#D4AF37] text-lg md:text-xl mb-4">
-          Building Scalable Digital Platforms For Modern Life, Finance & Intelligent Systems
+          Your App Foundry For Fast, Revenue-Ready Digital Products
         </p>
 
         <p className="max-w-3xl mx-auto text-gray-400 mb-10">
-             Find the system that solves your problem across finance, travel, media, and infrastructure — or partner with us to explore solutions together.
+          We help teams launch production apps in weeks, not quarters. Start from proven foundations, customize what matters, and ship with a clear go-to-market path.
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
           <Link
-            href="/ecosystem"
+            href="/contact"
             className="bg-[#D4AF37] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90 transition"
           >
-            Explore Our Ecosystem
+            Book A Discovery Call
           </Link>
           <Link
-            href="/contact"
+            href="/ecosystem"
             className="border border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded-md font-semibold hover:bg-[#D4AF37] hover:text-black transition"
           >
-            Work With Us
+            See Productized Solutions
           </Link>
         </div>
       </section>
@@ -38,20 +38,20 @@ export default function HomePage() {
       <section className="py-12 border-t border-gray-800 text-center">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <p className="text-3xl font-bold text-[#D4AF37]">65+</p>
-            <p className="text-gray-400 text-sm">Active Ventures</p>
+            <p className="text-3xl font-bold text-[#D4AF37]">MVP in 4-8 Weeks</p>
+            <p className="text-gray-400 text-sm">Typical Delivery Window</p>
           </div>
           <div>
-            <p className="text-3xl font-bold text-[#D4AF37]">12+</p>
-            <p className="text-gray-400 text-sm">Industry Verticals</p>
+            <p className="text-3xl font-bold text-[#D4AF37]">3 Build Tracks</p>
+            <p className="text-gray-400 text-sm">Starter, Growth, Scale</p>
           </div>
           <div>
-            <p className="text-3xl font-bold text-[#D4AF37]">Global</p>
-            <p className="text-gray-400 text-sm">Operational Reach</p>
+            <p className="text-3xl font-bold text-[#D4AF37]">Production-First</p>
+            <p className="text-gray-400 text-sm">Build, Deploy, Iterate</p>
           </div>
           <div>
-            <p className="text-3xl font-bold text-[#D4AF37]">Impact-Driven</p>
-            <p className="text-gray-400 text-sm">Mission Alignment</p>
+            <p className="text-3xl font-bold text-[#D4AF37]">Founder-Led</p>
+            <p className="text-gray-400 text-sm">Hands-On Delivery</p>
           </div>
         </div>
       </section>
@@ -59,73 +59,78 @@ export default function HomePage() {
       {/* QUOTE */}
       <section className="py-24 px-6 text-center border-t border-gray-800">
         <p className="text-xl md:text-2xl max-w-4xl mx-auto text-gray-200">
-          “Felix Consulting Group operates as a structured digital operating system —
-          not a collection of disconnected projects.”
+          "We do not sell slide decks. We ship software products that solve a business problem and can scale with your operation."
         </p>
       </section>
 
-      {/* CORE DIVISIONS */}
+      {/* FOUNDRY OFFERS */}
       <section className="py-24 px-6 border-t border-gray-800">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-          Core Divisions
+          Productized Foundry Offers
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
           {[
             {
-              title: "Financial Technologies",
-              desc: "Scalable fintech infrastructure, intelligent wealth systems, and modern payment architecture.",
+              title: "MVP Launch Sprint",
+              desc: "For teams validating a new idea fast with a production-grade release.",
               items: [
-                "WealthFront App — Intelligent wealth tracking & financial visibility.",
-                "Payment Infrastructure Layer — Structured transaction systems."
+                "Discovery workshop and feature scope in week 1.",
+                "Rapid build with weekly demos and milestones.",
+                "Production deployment with analytics and handoff."
               ],
-              link: "Explore Financial Systems →"
+              link: "Start A Sprint →"
             },
             {
-              title: "Travel & Urban Systems",
-              desc: "Smart city intelligence, structured tourism platforms, and AI-powered travel ecosystems.",
+              title: "App Modernization",
+              desc: "For businesses with legacy apps or fragmented workflows that need speed and clarity.",
               items: [
-                "City Intelligence Layer — Data-driven urban insights.",
-                "Travel Ecosystem Platform — Intelligent discovery & logistics."
+                "UX and architecture audit to remove bottlenecks.",
+                "Migration to a scalable Next.js and API stack.",
+                "Performance, SEO, and conversion optimization."
               ],
-              link: "Explore Travel Systems →"
+              link: "Modernize My App →"
             },
             {
-              title: "Digital Media & Applications",
-              desc: "Streaming platforms, discovery applications, and scalable cross-platform digital products.",
+              title: "Revenue Feature Studio",
+              desc: "For teams that already have users and need monetization and growth features.",
               items: [
-                "Streaming Infrastructure — Scalable media delivery platforms.",
-                "Discovery Applications — Cross-platform digital ecosystems."
+                "Payments, subscriptions, and offer architecture.",
+                "Admin workflows for operations and content teams.",
+                "A/B-ready growth loops and engagement triggers."
               ],
-              link: "Explore Media Systems →"
+              link: "Add Revenue Features →"
             },
             {
-              title: "Conservation & Environmental Impact",
-              desc: "Wildlife conservation, ethical research institutions, and sustainability innovation.",
+              title: "AI Workflow Integration",
+              desc: "For teams that want practical automation without breaking existing operations.",
               items: [
-                "Wildlife Conservation Systems — Species protection initiatives.",
-                "Sustainability Innovation Lab — Environmental impact solutions."
+                "Internal copilots for support, ops, and research.",
+                "Smart content and data processing pipelines.",
+                "Guardrails, observability, and human approvals."
               ],
-              link: "Explore Conservation Systems →"
+              link: "Integrate AI Workflows →"
             },
             {
-              title: "Consulting & Strategy",
-              desc: "Business transformation, ecosystem architecture, growth advisory, and institutional structuring.",
+              title: "Fractional Product Team",
+              desc: "For founders and operators that need a strategic build partner across product, design, and engineering.",
               items: [
-                "Ecosystem Architecture — Structured growth frameworks.",
-                "Institutional Structuring — Strategic organizational design."
+                "Roadmap planning tied to business outcomes.",
+                "Execution support from idea to deployment.",
+                "Decision support for hires, tooling, and growth." 
               ],
-              link: "Explore Strategy Systems →"
+              link: "Request Product Partnership →"
             },
             {
-              title: "Services & Infrastructure",
-              desc: "Operational logistics, concierge systems, coworking infrastructure, and service platforms.",
+              title: "Custom Platform Build",
+              desc: "For organizations that need a purpose-built platform aligned to a specific operating model.",
               items: [
-                "Concierge & Logistics Systems — Operational delivery platforms.",
-                "Coworking Infrastructure — Scalable workspace ecosystems."
+                "Domain-specific architecture and data models.",
+                "Multi-role dashboards and operational tooling.",
+                "Secure cloud deployment and release support."
               ],
-              link: "Explore Infrastructure Systems →"
+              link: "Scope A Custom Build →"
             }
           ].map((division, i) => (
             <div
@@ -139,7 +144,7 @@ export default function HomePage() {
                   <li key={idx}>• {item}</li>
                 ))}
               </ul>
-              <a href="/ecosystem" className="text-[#D4AF37] font-medium hover:underline">
+              <a href="/contact" className="text-[#D4AF37] font-medium hover:underline">
                 {division.link}
               </a>
             </div>
@@ -151,30 +156,30 @@ export default function HomePage() {
       {/* FIND IT SECTION */}
       <section className="py-24 px-6 border-t border-gray-800 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          Find It. Use It. Or We’ll Build It.
+          How Engagement Works
         </h2>
         <p className="text-gray-400 max-w-3xl mx-auto mb-16">
-          Every platform, tool, and system here exists for deployment — not observation.
+          A simple path from problem statement to shipped product.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto text-left">
 
           {[
             {
-              title: "Found a system?",
-              desc: "Use it immediately."
+              title: "Step 1: Discovery",
+              desc: "We clarify scope, users, and business goals."
             },
             {
-              title: "Need help getting started?",
-              desc: "We guide implementation."
+              title: "Step 2: Build",
+              desc: "We deliver in short cycles with visible progress."
             },
             {
-              title: "Need it tailored?",
-              desc: "We customize for your context."
+              title: "Step 3: Launch",
+              desc: "We deploy to production with tracking in place."
             },
             {
-              title: "Don’t see your solution?",
-              desc: "We architect it with you."
+              title: "Step 4: Optimize",
+              desc: "We improve conversion, retention, and operations."
             }
           ].map((card, i) => (
             <div
@@ -194,21 +199,21 @@ export default function HomePage() {
       {/* FINAL CTA */}
       <section className="py-20 text-center border-t border-gray-800">
         <h2 className="text-3xl font-bold mb-6">
-          Deploy What Exists. Build What Doesn’t.
+          Ready To Build Your Next Revenue Engine?
         </h2>
 
         <div className="flex justify-center gap-4 flex-wrap">
           <a
-            href="/ecosystem"
+            href="/contact"
             className="bg-[#D4AF37] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90 transition"
           >
-            Explore Systems
+            Book A Discovery Call
           </a>
           <a
-            href="/contact"
+            href="/ecosystem"
             className="border border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded-md font-semibold hover:bg-[#D4AF37] hover:text-black transition"
           >
-            Contact Us
+            View Build Options
           </a>
         </div>
       </section>

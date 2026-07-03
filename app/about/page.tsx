@@ -9,26 +9,26 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-gray-400 text-lg">
-          Two decades of system building — unified into one structured ecosystem.
+          A sales-focused app foundry that turns business opportunities into shipping products.
         </p>
       </section>
 
       {/* JOURNEY */}
       <section className="max-w-4xl mx-auto pb-20 border-t border-gray-800 pt-20">
         <h2 className="text-2xl font-semibold mb-6 text-[#D4AF37]">
-          A 20+ Year Journey of Building Systems
+          From Operations To Product Foundry
         </h2>
 
         <p className="text-gray-300 mb-6">
-          The journey began with Abaflix Emerald Farms — a physical infrastructure venture focused on sustainable production and operational discipline.
+          The journey started with real operating businesses and a practical obsession: build systems that work in the real world.
         </p>
 
         <p className="text-gray-300 mb-6">
-          Over time, new ventures emerged across finance, travel intelligence, digital platforms, logistics, conservation, and structured advisory.
+          Over time, that operating discipline expanded into software products across finance, travel, media, services, and strategy.
         </p>
 
         <p className="text-gray-300">
-          What began as individual businesses evolved into something larger — a connected ecosystem of systems designed to solve real-world problems across industries.
+          Today, we package that experience as a foundry model: discover opportunities, ship quickly, and scale what works.
         </p>
       </section>
 
@@ -39,66 +39,64 @@ export default function AboutPage() {
         </h2>
 
         <p className="text-gray-300 mb-6">
-          Felix Consulting Group now operates as a centralized ecosystem platform and venture marketplace.
+          Felix Consulting Group operates as a build partner for founders, operators, and teams that need product velocity.
         </p>
 
         <p className="text-gray-300 mb-6">
-          Inside this platform are deployable businesses — some live, some scaling, some emerging — across financial systems, travel intelligence, digital media, infrastructure services, and conservation initiatives.
+          Instead of starting from zero, we combine proven building blocks with custom engineering to launch high-leverage apps faster.
         </p>
 
         <p className="text-gray-300">
-          This is not a static portfolio. It is a structured marketplace of business systems available to:
+          We are best suited for:
         </p>
 
         <ul className="mt-8 space-y-4 text-gray-300">
-          <li>• End users seeking immediate solutions</li>
-          <li>• Entrepreneurs seeking proven business models</li>
-          <li>• Partners seeking integration opportunities</li>
-          <li>• Investors seeking structured ventures with long-term infrastructure</li>
+          <li>• Founders launching new products with clear timelines</li>
+          <li>• Companies modernizing or rebuilding core applications</li>
+          <li>• Teams adding revenue and automation features to existing products</li>
+          <li>• Leaders who need delivery, not just advisory</li>
         </ul>
       </section>
 
       {/* HOW TO ENGAGE */}
       <section className="max-w-4xl mx-auto pb-20 border-t border-gray-800 pt-20">
         <h2 className="text-2xl font-semibold mb-6 text-[#D4AF37]">
-          How to Engage the Ecosystem
+          How To Engage The Foundry
         </h2>
 
         <p className="text-gray-300 mb-6">
-          Every system within this ecosystem is built to be used.
+          Engagement is structured for speed and accountability.
         </p>
 
         <ul className="space-y-4 text-gray-300">
-          <li>• Use existing platforms immediately.</li>
-          <li>• License or adapt structured business models.</li>
-          <li>• Request customization for specific markets.</li>
-          <li>• Collaborate on new venture creation.</li>
-          <li>• Invest in selected growth-ready systems.</li>
+          <li>• Discovery call to define scope and business targets.</li>
+          <li>• Product blueprint with phased delivery milestones.</li>
+          <li>• Build and deploy with weekly checkpoints.</li>
+          <li>• Post-launch optimization for growth and operations.</li>
+          <li>• Optional retained product and engineering support.</li>
         </ul>
 
         <p className="mt-8 text-gray-400">
-          If a solution exists — deploy it.  
-          If it requires modification — refine it.  
-          If it does not exist — architect it.
+          Bring the problem. We will bring the shipping plan.
         </p>
       </section>
 
       {/* MARKETPLACE POSITIONING */}
       <section className="max-w-4xl mx-auto pb-20 border-t border-gray-800 pt-20">
         <h2 className="text-2xl font-semibold mb-6 text-[#D4AF37]">
-          A Venture Marketplace Model
+          Why Clients Choose This Model
         </h2>
 
         <p className="text-gray-300 mb-6">
-          Unlike traditional holding companies, Felix Consulting Group functions as an open structured marketplace.
+          You avoid slow handoffs between strategy, design, and engineering.
         </p>
 
         <p className="text-gray-300 mb-6">
-          Ventures can operate independently while reinforcing one another through shared infrastructure, systems architecture, and strategic oversight.
+          We work as one accountable delivery unit focused on measurable product outcomes.
         </p>
 
         <p className="text-gray-300">
-          This layered model enables sustainable scaling without fragmentation — allowing ideas to mature into institutions.
+          The result is faster launch velocity, tighter execution, and lower build risk.
         </p>
       </section>
 
@@ -109,15 +107,15 @@ export default function AboutPage() {
         </h2>
 
         <p className="text-[#D4AF37] mb-8">
-          Founder & Ecosystem Architect
+          Founder & Product Systems Architect
         </p>
 
         <p className="text-gray-300 mb-6">
-          Felix Olusola Abayomi is a systems builder focused on long-term infrastructure rather than short-term hype.
+          Felix Olusola Abayomi is a systems builder focused on practical execution and long-term product value.
         </p>
 
         <p className="text-gray-300 mb-6">
-          His work centers on converting fragmented ventures into structured ecosystems capable of sustained growth.
+          His work centers on turning fragmented business needs into unified, shipping software products.
         </p>
 
         <h3 className="text-xl font-semibold mt-12 mb-4 text-[#D4AF37]">
@@ -126,7 +124,7 @@ export default function AboutPage() {
 
         <ul className="space-y-3 text-gray-300">
           <li>• Build systems before chasing scale.</li>
-          <li>• Design clarity before increasing complexity.</li>
+          <li>• Design for outcomes before increasing complexity.</li>
           <li>• Strengthen foundations before acceleration.</li>
           <li>• Structure partnerships before expansion.</li>
         </ul>
@@ -136,7 +134,7 @@ export default function AboutPage() {
         </h3>
 
         <p className="text-gray-300">
-          The objective is not isolated success — but an interconnected portfolio of structured ventures capable of compounding value across sectors and generations.
+          The objective is to help clients launch and scale software products that compound value over time.
         </p>
       </section>
 
@@ -147,7 +145,7 @@ export default function AboutPage() {
         </h2>
 
         <p className="text-gray-300 text-lg">
-          To architect disciplined systems, structured ventures, and scalable ecosystems that transform ideas into enduring institutions.
+          To design, build, and launch high-impact software products that improve how businesses operate and grow.
         </p>
       </section>
 
@@ -157,7 +155,7 @@ export default function AboutPage() {
           href="/contact"
           className="bg-[#D4AF37] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90 transition"
         >
-          Explore Partnership or Investment
+          Book A Discovery Call
         </a>
       </section>
 

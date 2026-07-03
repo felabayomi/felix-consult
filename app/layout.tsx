@@ -73,10 +73,10 @@ export default function RootLayout({
                 About
               </Link>
               <Link href="/ecosystem" className="text-gray-700 hover:text-black">
-                Ecosystem
+                Solutions
               </Link>
               <Link href="/contact" className="text-gray-700 hover:text-black">
-                Contact
+                Discovery Call
               </Link>
             </div>
 
@@ -111,14 +111,14 @@ export default function RootLayout({
                 className="block text-gray-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Ecosystem
+                Solutions
               </Link>
               <Link 
                 href="/contact" 
                 className="block text-gray-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Contact
+                Discovery Call
               </Link>
             </div>
           )}

@@ -15,19 +15,15 @@ export default function EcosystemPage() {
         {/* HEADER */}
         <section className="max-w-3xl mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#C6A75E]">
-            Solutions Ecosystem
+            Productized Solutions
           </h1>
 
           <p className="text-gray-400 text-lg mb-6">
-            Every system inside this ecosystem was built to be deployed.
-            These are not theoretical concepts — they are structured platforms
-            designed for immediate use, customization, or expansion.
+            This is our app-foundry catalog: proven solution tracks you can launch, customize, or scale with us.
           </p>
 
           <p className="text-gray-500">
-            Find what fits. Use it. If you need guidance, we implement it.
-            If it requires adaptation, we customize it.
-            If it does not exist yet, we architect it with you.
+            Choose your closest fit, then we scope implementation based on your goals, timeline, and operating model.
           </p>
         </section>
 
@@ -45,8 +41,8 @@ export default function EcosystemPage() {
               Financial Technologies
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Wealth systems, payment infrastructure, income intelligence,
-              and financial architecture platforms.
+              Revenue systems, payments, billing flows, finance dashboards,
+              and operational controls.
             </p>
           </Link>
 
@@ -60,8 +56,8 @@ export default function EcosystemPage() {
               Travel & Urban Systems
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              City intelligence platforms, itinerary systems,
-              experiential discovery tools, and travel infrastructure.
+              Booking experiences, itinerary engines, travel content,
+              and local discovery products.
             </p>
           </Link>
 
@@ -75,8 +71,8 @@ export default function EcosystemPage() {
               Digital Media & Applications
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Streaming platforms, scalable content systems,
-              discovery applications, and digital ecosystems.
+              Media workflows, content engines, platform admin tools,
+              and audience growth products.
             </p>
           </Link>
 
@@ -90,8 +86,8 @@ export default function EcosystemPage() {
               Conservation & Environmental Impact
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Wildlife systems, sustainability innovation,
-              research platforms, and measurable impact initiatives.
+              Impact dashboards, research tooling, field data workflows,
+              and reporting systems.
             </p>
           </Link>
 
@@ -105,8 +101,8 @@ export default function EcosystemPage() {
               Consulting & Strategy
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Institutional structuring, ecosystem architecture,
-              workflow systems, and strategic growth modeling.
+              Product strategy, roadmap planning, build sequencing,
+              and launch guidance.
             </p>
           </Link>
 
@@ -120,8 +116,8 @@ export default function EcosystemPage() {
               Services & Infrastructure
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Logistics systems, concierge platforms,
-              coworking infrastructure, and operational architecture.
+              Internal operations apps, service delivery workflows,
+              and team productivity platforms.
             </p>
           </Link>
 
@@ -132,14 +128,12 @@ export default function EcosystemPage() {
         <section className="mt-24 text-center border-t border-gray-800 pt-16">
 
           <h2 className="text-2xl font-semibold mb-6">
-            Deploy What Exists. Architect What Doesn’t.
+            Start From A Proven Track, Then Tailor To Fit
           </h2>
 
           <p className="text-gray-400 max-w-2xl mx-auto mb-10">
-            This ecosystem is structured for action.
-            Use an existing platform, request guided implementation,
-            adapt a system to your context, or collaborate on building
-            a new solution from the ground up.
+            We can implement one of these solution tracks directly,
+            adapt it to your workflows, or extend it into a custom platform.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-6">
@@ -147,7 +141,7 @@ export default function EcosystemPage() {
               href="/contact"
               className="bg-[#C6A75E] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90 transition"
             >
-              Start a Conversation
+              Book A Discovery Call
             </Link>
 
             <Link

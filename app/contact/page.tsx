@@ -40,14 +40,13 @@ export default function ContactPage() {
       <div className="max-w-3xl mx-auto">
 
         <h1 className="text-4xl font-bold mb-6 text-[#C6A75E]">
-          Start a Conversation
+          Book Your Discovery Call
         </h1>
 
         <p className="text-gray-400 mb-12">
-          Every platform inside this ecosystem was built to be deployed,
-          customized, or expanded. If you found what you need — use it.
-          If you need support, customization, or a new solution,
-          we architect it with you.
+          Tell us what you need to ship and we will map the fastest path to launch.
+          Whether you need an MVP, a modernization, or growth features,
+          this intake helps us prepare a practical build plan.
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -61,11 +60,12 @@ export default function ContactPage() {
             className="w-full p-4 bg-[#111114] border border-[#C6A75E]/20 rounded-lg text-white"
             required
           >
-            <option value="">What are you looking to do?</option>
-            <option value="use">Use an existing platform</option>
-            <option value="customize">Customize an existing platform</option>
-            <option value="build">Build a new solution</option>
-            <option value="advisory">Strategic advisory</option>
+            <option value="">What do you want to ship?</option>
+            <option value="mvp">Launch a new MVP</option>
+            <option value="modernize">Modernize an existing app</option>
+            <option value="revenue">Add revenue features</option>
+            <option value="ai">Integrate AI workflows</option>
+            <option value="custom">Build a custom platform</option>
           </select>
 
           <input
@@ -91,7 +91,7 @@ export default function ContactPage() {
           />
 
           <textarea
-            placeholder="Tell us what you're looking to solve or build..."
+            placeholder="Share your goals, timeline, and the outcome you need..."
             rows={5}
             value={form.message}
             onChange={(e) =>
@@ -106,12 +106,12 @@ export default function ContactPage() {
             disabled={loading}
             className="bg-[#C6A75E] hover:bg-[#b8954f] text-black px-6 py-3 rounded-lg font-semibold transition"
           >
-            {loading ? "Sending..." : "Submit Request"}
+            {loading ? "Sending..." : "Request Discovery Call"}
           </button>
 
           {success && (
             <p className="text-green-500">
-              Your message has been received. We will respond shortly.
+              Request received. We will follow up with next steps shortly.
             </p>
           )}
 
