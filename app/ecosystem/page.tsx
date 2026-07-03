@@ -107,7 +107,7 @@ const categories = [
       { label: "WildFilm-Tracker", url: "#" },
       { label: "ElectionPredictor", url: "https://electionpredictor.net/" },
       { label: "VoteModeler", url: "#" },
-      { label: "Praxis-Nexus", url: "#" },
+      { label: "Praxis-Nexus", url: "https://praxinex.org/" },
       { label: "TFCGChat", url: "https://tfcgchat.felixconsult.co" },
       { label: "Campaign Signal Studio", url: "https://campaignsignal.us/" },
       { label: "App Showcase", url: "https://appaggregator.felixconsult.co/" },

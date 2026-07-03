@@ -107,7 +107,7 @@ export default function MediaDivision() {
 
         <DivisionItem
           name="Praxis-Nexus"
-          url="#"
+          url="https://praxinex.org/"
         />
 
         <DivisionItem
