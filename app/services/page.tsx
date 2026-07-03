@@ -194,6 +194,23 @@ export default function ServicesDivision() {
           />
 
         </div>
+
+        <div className="mt-20 text-center border-t border-[#C6A75E]/20 pt-12">
+          <h2 className="text-2xl font-semibold mb-4 text-[#C6A75E]">
+            Partner With Us
+          </h2>
+
+          <p className="text-gray-400 mb-6">
+            Engage Felix Consulting Group for advisory, venture strategy, or ecosystem development partnerships.
+          </p>
+
+          <Link
+            href="/contact"
+            className="inline-block bg-[#C6A75E] text-black hover:bg-[#D4B56F] px-6 py-3 rounded-lg font-semibold transition-all duration-300"
+          >
+            Request Consultation
+          </Link>
+        </div>
       </div>
 
     </main>
