@@ -129,6 +129,12 @@ export default function ConservationDivision() {
             url="#"
           />
 
+          <DivisionItem
+            name="WildlifeHarmony"
+            description="Community-driven wildlife awareness and conservation coordination platform."
+            url="#"
+          />
+
         </div>
 
       </div>

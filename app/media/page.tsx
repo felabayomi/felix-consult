@@ -72,6 +72,46 @@ export default function MediaDivision() {
           url="https://apps.apple.com/us/app/wealth-watch/id6758687724"
         />
 
+        <DivisionItem
+          name="50USAStates"
+          url="#"
+        />
+
+        <DivisionItem
+          name="DailyFelix-WordofDay"
+          url="#"
+        />
+
+        <DivisionItem
+          name="WildFilm-Tracker"
+          url="#"
+        />
+
+        <DivisionItem
+          name="ElectionPredictor"
+          url="#"
+        />
+
+        <DivisionItem
+          name="VoteModeler"
+          url="#"
+        />
+
+        <DivisionItem
+          name="Praxis-Nexus"
+          url="#"
+        />
+
+        <DivisionItem
+          name="TFCGChat"
+          url="https://tfcgchat.felixconsult.co"
+        />
+
+        <DivisionItem
+          name="Campaign Signal Studio"
+          url="#"
+        />
+
       </div>
 
     </main>

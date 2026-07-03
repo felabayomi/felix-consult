@@ -86,6 +86,26 @@ Turn your mail into an organized command center. Scan letters, track deadlines, 
         "Tools to build income, eliminate debt, and grow your legacy.",
       url: "https://debttolegacy.com",
     },
+    {
+      name: "FelixStore",
+      description: "Retail and payment operations platform for online sales workflows.",
+      url: "https://apps.apple.com/us/app/felix-store/id1567050617",
+    },
+    {
+      name: "Adrian-Styled-StoreFront",
+      description: "Branded storefront foundation for curated product sales and fulfillment.",
+      url: "https://www.shopwithadrian.com/",
+    },
+    {
+      name: "FeliTrips",
+      description: "Travel budgeting and booking support workflows tied to financial planning.",
+      url: "#",
+    },
+    {
+      name: "RestEZ",
+      description: "Reservation and transaction flow foundation for service businesses.",
+      url: "https://tablepilot.io",
+    },
   ];
 
   return (

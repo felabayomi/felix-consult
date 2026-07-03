@@ -149,6 +149,72 @@ export default function TravelDivision() {
             url="#"
           />
 
+          <DivisionItem
+            name="FelixTravelTV"
+            description="Travel content platform for destination stories, city highlights, and discovery media."
+            url="https://traveltv.citydiscoverer.guide/"
+          />
+
+          <DivisionItem
+            name="FelixTravelBroadcast"
+            description="Broadcast-style travel media workflow for recurring destination coverage."
+            url="#"
+          />
+
+          <DivisionItem
+            name="Felix-Travel-TV"
+            description="Standalone travel television deployment for curated trip and city programming."
+            url="#"
+          />
+
+          <DivisionItem
+            name="CityTourHub"
+            description="City tour and local attraction platform for guided trip experiences."
+            url="#"
+          />
+
+          <DivisionItem
+            name="CityOfDay"
+            description="Daily city spotlight platform for travel discovery and planning inspiration."
+            url="#"
+          />
+
+          <DivisionItem
+            name="CityDayInt"
+            description="International city content and destination intelligence publishing workflow."
+            url="#"
+          />
+
+          <DivisionItem
+            name="travel-tracker-felimark"
+            description="Travel tracking workspace for trip activity and movement logs."
+            url="#"
+          />
+
+          <DivisionItem
+            name="TravelTracker"
+            description="Structured tracker for itineraries, routes, and travel progress monitoring."
+            url="#"
+          />
+
+          <DivisionItem
+            name="City-Discoverer-Port"
+            description="City Discoverer deployment variant for port, city, and transit discovery."
+            url="#"
+          />
+
+          <DivisionItem
+            name="Itinerary-Generator"
+            description="Automated itinerary builder for destination-by-destination trip plans."
+            url="#"
+          />
+
+          <DivisionItem
+            name="expedition-america"
+            description="State-by-state travel storytelling and route discovery across the U.S."
+            url="https://expeditionamerica.online/"
+          />
+
         </div>
 
       </div>

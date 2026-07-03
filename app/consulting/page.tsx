@@ -32,8 +32,8 @@ export default function ConsultingDivision() {
                 key={item.href}
                 href={item.href}
                 className={`relative pb-4 transition ${pathname === item.href
-                    ? "text-[#C6A75E] font-semibold"
-                    : "text-gray-400 hover:text-white"
+                  ? "text-[#C6A75E] font-semibold"
+                  : "text-gray-400 hover:text-white"
                   }`}
               >
                 {item.label}
@@ -116,6 +116,42 @@ export default function ConsultingDivision() {
             title="TFCG Strategy Center."
             description="The Felix Consulting Group Strategy Room and Command Center — strategic discipline."
             link="https://tfcgstrategycenter.felixconsult.co"
+          />
+
+          <ServiceCard
+            title="Cicivor (Civicos Pro)."
+            description="Candidate and civic operations support platform for campaign planning, compliance workflows, and strategic execution."
+            link="https://civicos.pro"
+          />
+
+          <ServiceCard
+            title="WACI."
+            description="Conservation and community strategy initiative with structured program planning and impact delivery."
+            link="#"
+          />
+
+          <ServiceCard
+            title="WACI-Project-Hub."
+            description="Project operations hub for coordinated conservation initiatives, reporting workflows, and field execution."
+            link="#"
+          />
+
+          <ServiceCard
+            title="Capital-Regime-Analysis."
+            description="Macro and policy strategy platform focused on capital cycles, risk posture, and economic scenario planning."
+            link="#"
+          />
+
+          <ServiceCard
+            title="felix-consult."
+            description="Core consulting brand for launch strategy, product direction, and practical rollout planning."
+            link="https://felixconsult.co/"
+          />
+
+          <ServiceCard
+            title="Civic Candidate Support Platform (CCSP)."
+            description="Campaign operations platform built to support candidate teams with structured planning and execution systems."
+            link="#"
           />
 
         </div>

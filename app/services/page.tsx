@@ -127,6 +127,48 @@ export default function ServicesDivision() {
             url="https://chatgpt.com/g/g-689404bb375c8191a934b6afca8659c8-felix-meals"
           />
 
+          <ServiceCard
+            title="AFLaundry"
+            description="Operational laundry service platform for bookings, workflows, and customer service delivery."
+            url="https://aflaundry.com/"
+          />
+
+          <ServiceCard
+            title="Document-Formatter"
+            description="Document processing workflow tool for formatting and delivery operations."
+            url="#"
+          />
+
+          <ServiceCard
+            title="aflaundry-new"
+            description="Next deployment track for A&F Laundry operational workflows and service infrastructure."
+            url="#"
+          />
+
+          <ServiceCard
+            title="Inquiry-Hub"
+            description="Centralized inquiry intake and coordination platform for support and request workflows."
+            url="https://inquiryhub.app"
+          />
+
+          <ServiceCard
+            title="Letter-Organizer-Pro"
+            description="Organized workflow system for letter intake, tracking, and action management."
+            url="#"
+          />
+
+          <ServiceCard
+            title="Letter-Vault-Deployment"
+            description="Deployment-ready letter management platform for records, reminders, and follow-through."
+            url="https://lettervault.us"
+          />
+
+          <ServiceCard
+            title="Smart-Meeting-Minder"
+            description="Meeting reminder and schedule coordination platform for team operations."
+            url="#"
+          />
+
         </div>
 
         {/* CONSULTING PACKAGES SECTION */}
