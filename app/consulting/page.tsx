@@ -148,7 +148,7 @@ export default function ConsultingDivision() {
           <ServiceCard
             title="Capital-Regime-Analysis"
             description="Macro and policy strategy platform focused on capital cycles, risk posture, and economic scenario planning."
-            link="#"
+            link="https://abaflix.us/"
           />
 
           <ServiceCard

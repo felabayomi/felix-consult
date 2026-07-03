@@ -160,7 +160,7 @@ const categories = [
       { label: "Cicivor (Civicos Pro)", url: "https://civicos.pro" },
       { label: "WACI", url: "#" },
       { label: "WACI-Project-Hub", url: "#" },
-      { label: "Capital-Regime-Analysis", url: "#" },
+      { label: "Capital-Regime-Analysis", url: "https://abaflix.us/" },
       { label: "Felix Consult", url: "https://felixconsult.co/" },
       { label: "Civic Candidate Support Platform (CCSP)", url: "#" },
     ],
