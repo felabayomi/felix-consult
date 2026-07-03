@@ -62,7 +62,7 @@ const categories = [
       { label: "Travel with AdrianFelix", url: "#" },
       { label: "FelixTravelTV", url: "https://traveltv.citydiscoverer.guide/" },
       { label: "FelixTravelBroadcast", url: "#" },
-      { label: "Felix-Travel-TV", url: "#" },
+      { label: "Felix-Travel-TV", url: "https://traveltv.citydiscoverer.guide/" },
       { label: "CityTourHub", url: "https://tours.citydiscoverer.guide/" },
       { label: "CityOfDay", url: "https://daily.citydiscoverer.guide/" },
       { label: "CityDayInt", url: "#" },

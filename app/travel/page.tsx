@@ -173,7 +173,7 @@ export default function TravelDivision() {
           <DivisionItem
             name="Felix-Travel-TV"
             description="Standalone travel television deployment for curated trip and city programming."
-            url="#"
+            url="https://traveltv.citydiscoverer.guide/"
           />
 
           <DivisionItem
