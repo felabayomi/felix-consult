@@ -18,6 +18,15 @@ export default function ConsultingDivision() {
           Consulting & Strategy
         </h1>
 
+        <div className="mb-8">
+          <Link
+            href="/ecosystem"
+            className="inline-flex items-center text-sm text-[#C6A75E] hover:text-[#D4B56F] transition"
+          >
+            ← Back to Ecosystem
+          </Link>
+        </div>
+
         <div className="mb-16 border-b border-[#C6A75E]/20">
           <div className="flex flex-wrap gap-10 text-sm tracking-wide">
             {[
