@@ -140,7 +140,7 @@ export default function TravelDivision() {
           <DivisionItem
             name="City Discoverer Travel TV"
             description="An Expedition America Travel Channel that generates global travel news content."
-            url="#"
+            url="https://traveltv.citydiscoverer.guide/"
           />
 
           <DivisionItem
