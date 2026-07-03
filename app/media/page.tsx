@@ -97,7 +97,7 @@ export default function MediaDivision() {
 
         <DivisionItem
           name="ElectionPredictor"
-          url="#"
+          url="https://electionpredictor.net/"
         />
 
         <DivisionItem

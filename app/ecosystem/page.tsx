@@ -105,7 +105,7 @@ const categories = [
       { label: "50USAStates", url: "https://www.expeditionamerica.online/" },
       { label: "DailyFelix-WordofDay", url: "https://faithhouse.app/" },
       { label: "WildFilm-Tracker", url: "#" },
-      { label: "ElectionPredictor", url: "#" },
+      { label: "ElectionPredictor", url: "https://electionpredictor.net/" },
       { label: "VoteModeler", url: "#" },
       { label: "Praxis-Nexus", url: "#" },
       { label: "TFCGChat", url: "https://tfcgchat.felixconsult.co" },
