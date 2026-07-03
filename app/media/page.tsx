@@ -87,7 +87,7 @@ export default function MediaDivision() {
 
         <DivisionItem
           name="DailyFelix-WordofDay"
-          url="#"
+          url="https://faithhouse.app/"
         />
 
         <DivisionItem

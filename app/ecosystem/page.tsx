@@ -103,7 +103,7 @@ const categories = [
       { label: "City Discoverer (Web Platform)", url: "https://citydiscoverer.app" },
       { label: "WealthWatch (App Platform)", url: "https://apps.apple.com/us/app/wealth-watch/id6758687724" },
       { label: "50USAStates", url: "https://www.expeditionamerica.online/" },
-      { label: "DailyFelix-WordofDay", url: "#" },
+      { label: "DailyFelix-WordofDay", url: "https://faithhouse.app/" },
       { label: "WildFilm-Tracker", url: "#" },
       { label: "ElectionPredictor", url: "#" },
       { label: "VoteModeler", url: "#" },
