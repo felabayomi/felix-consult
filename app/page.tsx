@@ -32,7 +32,7 @@ export default function HomePage() {
             Pick An App Template
           </Link>
           <Link
-            href="/services"
+            href="/pricing"
             className="border border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded-md font-semibold hover:bg-[#D4AF37] hover:text-black transition"
           >
             View Pricing
@@ -63,6 +63,54 @@ export default function HomePage() {
             <p className="text-3xl font-bold text-[#D4AF37]">Founder-Led</p>
             <p className="text-gray-400 text-sm">Direct Senior Execution</p>
           </div>
+        </div>
+      </section>
+
+      {/* APP LAUNCH PACKAGES */}
+      <section className="py-24 px-6 border-t border-gray-800">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+          App Launch Packages
+        </h2>
+        <p className="text-gray-400 text-center max-w-3xl mx-auto mb-12">
+          Start with a clear package and upgrade as your product grows.
+        </p>
+
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {[
+            {
+              tier: "$99",
+              title: "App Business Review",
+              desc: "Get matched to the right app, offer model, and launch path before you build.",
+              cta: "Book Review",
+              href: "/contact",
+            },
+            {
+              tier: "$499",
+              title: "Launch Setup",
+              desc: "Branded app foundation setup with deployment support to go live quickly.",
+              cta: "Start Launch Setup",
+              href: "/pricing",
+            },
+            {
+              tier: "$1,500+",
+              title: "Custom Build",
+              desc: "Advanced workflows, custom features, and deeper operational integration.",
+              cta: "Request Custom Scope",
+              href: "/contact",
+            },
+          ].map((pkg, i) => (
+            <div
+              key={i}
+              className="bg-[#0B0E14] border border-gray-800 rounded-lg p-8 hover:border-[#D4AF37] transition"
+            >
+              <p className="text-[#D4AF37] text-3xl font-bold mb-3">{pkg.tier}</p>
+              <h3 className="text-xl font-semibold mb-3">{pkg.title}</h3>
+              <p className="text-gray-400 mb-6">{pkg.desc}</p>
+              <Link href={pkg.href} className="text-[#D4AF37] font-medium hover:underline">
+                {pkg.cta} →
+              </Link>
+            </div>
+          ))}
         </div>
       </section>
 
