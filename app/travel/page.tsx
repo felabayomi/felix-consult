@@ -179,7 +179,7 @@ export default function TravelDivision() {
           <DivisionItem
             name="CityTourHub"
             description="City tour and local attraction platform for guided trip experiences."
-            url="#"
+            url="https://tours.citydiscoverer.guide/"
           />
 
           <DivisionItem
