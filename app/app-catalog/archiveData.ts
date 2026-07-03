@@ -684,4 +684,4 @@ export const archiveData = [
         "url":  "https://taxflowpro.felixconsult.co/",
         "appType":  "Logistics \u0026 Local Services"
     }
-] as const\n
+] as const
