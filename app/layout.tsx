@@ -82,6 +82,9 @@ export default function RootLayout({
               <Link href="/contact" className="text-gray-700 hover:text-black">
                 Contact
               </Link>
+              <Link href="/contact" className="text-gray-700 hover:text-black">
+                Discovery Call
+              </Link>
             </div>
 
             {/* Mobile */}
@@ -137,6 +140,13 @@ export default function RootLayout({
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Contact
+              </Link>
+              <Link
+                href="/contact"
+                className="block text-gray-700"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Discovery Call
               </Link>
             </div>
           )}
