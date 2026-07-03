@@ -1,10 +1,8 @@
 "use client"
 
-import { Suspense, useState, useEffect } from "react"
-import { useSearchParams } from "next/navigation"
+import { useState } from "react"
 
 function ContactForm() {
-  const searchParams = useSearchParams()
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -14,23 +12,6 @@ function ContactForm() {
 
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
-
-  // Map service parameter to intent option
-  useEffect(() => {
-    const service = searchParams.get("service")
-    if (service) {
-      const serviceMap: Record<string, string> = {
-        "app-business-review": "review",
-        "launch-setup": "mvp",
-        "custom-app-launch": "custom",
-      }
-      const mappedIntent = serviceMap[service]
-      if (mappedIntent) {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
-        setForm((prev) => ({ ...prev, intent: mappedIntent }))
-      }
-    }
-  }, [searchParams])
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -148,9 +129,7 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-[#0B0B0F] text-white px-6 py-24">
       <div className="max-w-3xl mx-auto">
-        <Suspense fallback={<div className="text-gray-400">Loading...</div>}>
-          <ContactForm />
-        </Suspense>
+        <ContactForm />
       </div>
     </main>
   )

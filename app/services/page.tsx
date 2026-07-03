@@ -149,7 +149,6 @@ export default function ServicesDivision() {
                 "Roadmap recommendation"
               ]}
               cta="Request Review"
-              intent="app-business-review"
             />
 
             <PricingCard
@@ -162,7 +161,6 @@ export default function ServicesDivision() {
                 "30-day deployment plan"
               ]}
               cta="Start Setup"
-              intent="launch-setup"
               highlight
             />
 
@@ -177,7 +175,6 @@ export default function ServicesDivision() {
                 "Post-launch support & optimization"
               ]}
               cta="Discuss Build"
-              intent="custom-app-launch"
             />
           </div>
         </div>
@@ -250,7 +247,6 @@ function PricingCard({
   title,
   features,
   cta,
-  intent,
   highlight,
 }: {
   price: string
@@ -258,7 +254,6 @@ function PricingCard({
   title: string
   features: string[]
   cta: string
-  intent: string
   highlight?: boolean
 }) {
   return (
@@ -295,12 +290,12 @@ function PricingCard({
       </ul>
 
       <Link
-        href={`/contact?service=${intent}`}
+        href="/contact"
         className={`w-full py-3 px-4 rounded-lg font-semibold text-center transition-all duration-300
                     ${highlight
-          ? "bg-[#C6A75E] text-black hover:bg-[#D4B56F]"
-          : "bg-[#C6A75E]/20 text-[#C6A75E] hover:bg-[#C6A75E]/30"
-        }`}
+            ? "bg-[#C6A75E] text-black hover:bg-[#D4B56F]"
+            : "bg-[#C6A75E]/20 text-[#C6A75E] hover:bg-[#C6A75E]/30"
+          }`}
       >
         {cta}
       </Link>
