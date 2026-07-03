@@ -185,7 +185,7 @@ export default function TravelDivision() {
           <DivisionItem
             name="CityOfDay"
             description="Daily city spotlight platform for travel discovery and planning inspiration."
-            url="#"
+            url="https://daily.citydiscoverer.guide/"
           />
 
           <DivisionItem
