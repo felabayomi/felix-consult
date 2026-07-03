@@ -106,6 +106,16 @@ Turn your mail into an organized command center. Scan letters, track deadlines, 
       description: "Reservation and transaction flow foundation for service businesses.",
       url: "https://tablepilot.io",
     },
+    {
+      name: "LearnFlow",
+      description: "Learning platform supporting debt-to-legacy education and financial growth workflows.",
+      url: "https://learn.debttolegacy.com/",
+    },
+    {
+      name: "DTL Learning",
+      description: "Draft financial learning workspace for debt reduction and wealth literacy tracks.",
+      url: "#",
+    },
   ];
 
   return (

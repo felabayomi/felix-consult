@@ -24,11 +24,10 @@ export default function MediaDivision() {
             <Link
               key={item.href}
               href={item.href}
-              className={`relative pb-4 transition ${
-                pathname === item.href
+              className={`relative pb-4 transition ${pathname === item.href
                   ? "text-[#C6A75E] font-semibold"
                   : "text-gray-400 hover:text-white"
-              }`}
+                }`}
             >
               {item.label}
               {pathname === item.href && (
@@ -109,6 +108,36 @@ export default function MediaDivision() {
 
         <DivisionItem
           name="Campaign Signal Studio"
+          url="#"
+        />
+
+        <DivisionItem
+          name="App Showcase"
+          url="https://appaggregator.felixconsult.co/"
+        />
+
+        <DivisionItem
+          name="BeaconNewsHub"
+          url="#"
+        />
+
+        <DivisionItem
+          name="MediaStreamHost"
+          url="https://imagediscoverer.xyz/"
+        />
+
+        <DivisionItem
+          name="Project Pulse"
+          url="https://projectpulse.felixconsult.co/"
+        />
+
+        <DivisionItem
+          name="SocialMediaMaster"
+          url="https://mediahost.app/"
+        />
+
+        <DivisionItem
+          name="PollGenius"
           url="#"
         />
 

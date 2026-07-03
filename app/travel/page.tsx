@@ -215,6 +215,108 @@ export default function TravelDivision() {
             url="https://expeditionamerica.online/"
           />
 
+          <DivisionItem
+            name="Calendar Scheduler"
+            description="Booking calendar workflow for travel appointments and guided planning sessions."
+            url="https://appointment.expeditionamerica.us/"
+          />
+
+          <DivisionItem
+            name="CityDiscoveryTool"
+            description="Draft city discovery workflow for location insights and recommendations."
+            url="#"
+          />
+
+          <DivisionItem
+            name="CityTracker"
+            description="Draft tracking workspace for city activity and movement intelligence."
+            url="#"
+          />
+
+          <DivisionItem
+            name="Content Travel Guide"
+            description="Internal customer travel guide workspace for requests and destination resources."
+            url="https://view.citydiscoverer.ai/"
+          />
+
+          <DivisionItem
+            name="Customer Support Tracker"
+            description="Customer service portal for travel support requests and issue tracking."
+            url="https://agent.citydiscoverer.ai/"
+          />
+
+          <DivisionItem
+            name="Discovery Timeline"
+            description="Internal timeline view for customer travel milestones and planning phases."
+            url="https://timeline.citydiscoverer.guide/"
+          />
+
+          <DivisionItem
+            name="Home Culture Explorer"
+            description="Travel culture exploration workflow for discovering local traditions and places."
+            url="https://homeexplorer.citydiscoverer.ai/"
+          />
+
+          <DivisionItem
+            name="HomeControl"
+            description="Draft travel/home coordination workspace for itinerary-linked control flows."
+            url="#"
+          />
+
+          <DivisionItem
+            name="Itinerary Builder"
+            description="iOS itinerary workflow for structured trip planning and destination sequencing."
+            url="https://itinerary.citydiscoverer.guide/"
+          />
+
+          <DivisionItem
+            name="Nomad Navigator"
+            description="Travel navigation workspace for route clarity and destination movement planning."
+            url="https://nomadnavigator.citydiscoverer.ai/"
+          />
+
+          <DivisionItem
+            name="Travel Advisor"
+            description="Travel advisor quiz workflow to guide trip decisions and recommendations."
+            url="http://traveladvisor.agency/"
+          />
+
+          <DivisionItem
+            name="Travel Deals Curator"
+            description="Draft workflow for curating travel deals and destination offer bundles."
+            url="#"
+          />
+
+          <DivisionItem
+            name="Travel Discovery Hub"
+            description="Partner travel deals view for destination offers and discovery campaigns."
+            url="https://deals.citydiscoverer.guide/"
+          />
+
+          <DivisionItem
+            name="Travel Spotlight"
+            description="Featured travel deals and destination highlights for active campaign visibility."
+            url="https://travelspotlight.incityexperience.com/"
+          />
+
+          <DivisionItem
+            name="WanderWrite"
+            description="Draft travel writing workflow for destination storytelling and trip reflections."
+            url="#"
+          />
+
+          <DivisionItem
+            name="Virtual Office Hours"
+            description="Live streaming session workflow for guided travel support and advisory access."
+            url="https://eacd.us/"
+          />
+
+          <DivisionItem
+            name="News Showcase"
+            description="Travel news site workflow for destination updates and market content publishing."
+            url="https://news.expeditionamerica.us/"
+          />
+
         </div>
 
       </div>

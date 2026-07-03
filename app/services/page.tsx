@@ -169,6 +169,30 @@ export default function ServicesDivision() {
             url="#"
           />
 
+          <ServiceCard
+            title="Errand Mover"
+            description="Operational scheduling workflow for errand movement and delivery coordination."
+            url="https://errandeasyscheduler.com"
+          />
+
+          <ServiceCard
+            title="ErrandEZ Mobile"
+            description="Mobile errand workflow app for booking and service coordination."
+            url="https://errandez.com/"
+          />
+
+          <ServiceCard
+            title="Felix App Manager"
+            description="Internal management console for tracking app portfolio status and operations."
+            url="http://felixdgreatapps.felixconsult.co/"
+          />
+
+          <ServiceCard
+            title="Tax Automator"
+            description="Tax workflow automation platform for operational finance processing."
+            url="https://taxflowpro.felixconsult.co/"
+          />
+
         </div>
 
         {/* CONSULTING PACKAGES SECTION */}

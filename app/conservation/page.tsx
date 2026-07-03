@@ -34,11 +34,10 @@ export default function ConservationDivision() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative pb-4 transition ${
-                  pathname === item.href
+                className={`relative pb-4 transition ${pathname === item.href
                     ? "text-[#C6A75E] font-semibold"
                     : "text-gray-400 hover:text-white"
-                }`}
+                  }`}
               >
                 {item.label}
                 {pathname === item.href && (
@@ -132,6 +131,12 @@ export default function ConservationDivision() {
           <DivisionItem
             name="WildlifeHarmony"
             description="Community-driven wildlife awareness and conservation coordination platform."
+            url="#"
+          />
+
+          <DivisionItem
+            name="WildConflictResolver"
+            description="Draft conservation response workflow for human-wildlife conflict tracking and resolution support."
             url="#"
           />
 
