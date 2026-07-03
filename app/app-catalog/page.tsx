@@ -30,6 +30,34 @@ type CatalogItem = {
     url: string
 }
 
+function personaMessage(item: CatalogItem): string {
+    if (item.buyerType === "Entrepreneur") return "Launch fast, validate demand, and start selling under your brand."
+    if (item.buyerType === "Agency") return "Offer this as a client-ready productized service with faster delivery."
+    if (item.buyerType === "Local Business") return "Convert local demand into bookings, orders, and repeat customers."
+    if (item.buyerType === "Nonprofit") return "Turn mission goals into measurable impact with structured digital workflows."
+    if (item.buyerType === "Creator") return "Monetize your audience with a branded app experience you control."
+    return "Package expertise into a repeatable platform you can deploy and scale."
+}
+
+function archiveOutcome(appType: AppType): string {
+    if (appType === "Booking") return "Launch a booking workflow your audience can start using immediately."
+    if (appType === "Finance") return "Launch a finance workflow that improves visibility and control."
+    if (appType === "Travel") return "Launch a travel product for discovery, planning, and conversion."
+    if (appType === "Media") return "Launch a content product that publishes, distributes, and grows audience."
+    if (appType === "Logistics") return "Launch an operations app that streamlines service and fulfillment flow."
+    if (appType === "Nonprofit") return "Launch a mission platform for programs, storytelling, and coordination."
+    return "Launch an internal dashboard that makes your operations easier to run."
+}
+
+function archiveBestFor(buyerType: BuyerType): string {
+    if (buyerType === "Entrepreneur") return "Founders building their first sellable app product."
+    if (buyerType === "Agency") return "Agencies packaging ready-made delivery offers for clients."
+    if (buyerType === "Local Business") return "Local operators who need bookings, requests, and workflow control."
+    if (buyerType === "Nonprofit") return "Nonprofits and impact teams scaling outreach and operations."
+    if (buyerType === "Creator") return "Creators building direct digital products around their audience."
+    return "Consultants and teams standardizing service delivery with software."
+}
+
 const featuredApps: CatalogItem[] = [
     {
         name: "ReserveEZ / TablePilot",
@@ -460,15 +488,16 @@ const fullArchive: CatalogItem[] = archiveData.map((item) => {
     const status = inferStatus(item.url)
     const appType = mapAppType(item.appType, item.name)
     const budget = mapBudget(status)
+    const buyerType = mapBuyerType(appType)
     return {
         name: item.name,
-        outcome: "Ready-made app foundation available to launch under your brand.",
-        bestFor: "Founders, operators, and teams looking for faster deployment.",
+        outcome: archiveOutcome(appType),
+        bestFor: archiveBestFor(buyerType),
         status,
         startingPackage: budget === "Under $250" ? "$99 app business review" : budget === "$499 Setup" ? "$499 launch setup" : "$1,500+ custom build",
         budget,
         appType,
-        buyerType: mapBuyerType(appType),
+        buyerType,
         launchSpeed: mapLaunchSpeed(status),
         url: item.url,
     }
@@ -490,6 +519,7 @@ function CatalogCard({ item }: { item: CatalogItem }) {
                 <StatusBadge status={item.status} />
             </div>
             <p className="text-gray-300 mb-4">{item.outcome}</p>
+            <p className="text-gray-300 text-sm mb-2"><span className="text-[#C6A75E] font-semibold">Buyer fit ({item.buyerType}):</span> {personaMessage(item)}</p>
             <p className="text-gray-400 text-sm mb-2"><span className="text-white font-semibold">Best for:</span> {item.bestFor}</p>
             <p className="text-gray-400 text-sm mb-4"><span className="text-white font-semibold">Starting at:</span> {item.startingPackage}</p>
             <div className="flex flex-wrap gap-3">
@@ -542,13 +572,13 @@ export default function AppCatalogPage() {
                 <section className="max-w-4xl mb-14">
                     <p className="inline-block text-xs tracking-[0.2em] uppercase text-[#C6A75E] border border-[#C6A75E]/40 rounded-full px-3 py-1 mb-4">Storefront Catalog</p>
                     <h1 className="text-4xl md:text-5xl font-bold mb-5 text-[#C6A75E]">Choose a Ready-Made App And Launch It Under Your Brand</h1>
-                    <p className="text-gray-300 text-lg mb-8">Start with proven app foundations, then customize features, branding, and deployment for your business model.</p>
+                    <p className="text-gray-300 text-lg mb-8">Pick a proven app foundation. Brand it. Launch it fast.</p>
                     <Link href="/contact" className="inline-block bg-[#C6A75E] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90">Not sure which app fits? Get a $99 App Business Review</Link>
                 </section>
 
                 <section className="mb-20">
                     <h2 className="text-3xl font-semibold mb-3">Featured App Packages</h2>
-                    <p className="text-gray-400 mb-8">These are the strongest front-window products buyers can launch fastest.</p>
+                    <p className="text-gray-400 mb-8">Start here. These are the fastest-to-sell app offers.</p>
                     <div className="grid lg:grid-cols-3 gap-6">
                         {featuredApps.map((item) => (
                             <CatalogCard key={item.name} item={item} />
@@ -558,7 +588,7 @@ export default function AppCatalogPage() {
 
                 <section className="mb-20">
                     <h2 className="text-3xl font-semibold mb-3">Browse By App Type</h2>
-                    <p className="text-gray-400 mb-10">Pick the launch outcome you want, then choose the foundation that fits.</p>
+                    <p className="text-gray-400 mb-10">Choose by outcome, not internal category.</p>
                     <div className="space-y-12">
                         {browseByType.map((group) => (
                             <div key={group.heading}>
@@ -575,12 +605,12 @@ export default function AppCatalogPage() {
 
                 <section className="mb-20 border border-[#C6A75E]/20 rounded-2xl p-8 bg-[#101014]">
                     <h2 className="text-3xl font-semibold mb-4">Why Not Just Use AI Alone?</h2>
-                    <p className="text-gray-300 mb-4">You are not buying random generated code. You are buying a working app foundation, implementation support, and launch execution.</p>
+                    <p className="text-gray-300 mb-4">You are buying a deployable foundation, not random code output.</p>
                     <div className="grid md:grid-cols-2 gap-4 text-gray-400">
                         <p>Ready-made app architecture that already solves a real workflow.</p>
-                        <p>Branding, deployment, and production guidance from start to launch.</p>
+                        <p>Branding and deployment support from first call to launch.</p>
                         <p>Faster path to revenue than building from a blank prompt.</p>
-                        <p>Post-launch support to iterate features that drive adoption.</p>
+                        <p>Post-launch help to improve retention and conversion.</p>
                     </div>
                 </section>
 
@@ -631,7 +661,7 @@ export default function AppCatalogPage() {
 
                 <section className="text-center border-t border-[#C6A75E]/20 pt-12">
                     <h2 className="text-2xl font-semibold mb-4 text-[#C6A75E]">Get Matched With The Right App</h2>
-                    <p className="text-gray-400 mb-6 max-w-2xl mx-auto">Tell us your market, timeline, and budget. We will recommend the fastest launch path and best-fit foundation.</p>
+                    <p className="text-gray-400 mb-6 max-w-2xl mx-auto">Tell us your buyer, budget, and timeline. We will map you to the best-fit app package.</p>
                     <div className="flex flex-col sm:flex-row justify-center gap-4">
                         <Link href="/contact" className="bg-[#C6A75E] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90">Request Consultation</Link>
                         <Link href="/pricing" className="border border-[#C6A75E]/50 px-6 py-3 rounded-md font-semibold hover:border-[#C6A75E] hover:text-[#C6A75E]">View Pricing</Link>
