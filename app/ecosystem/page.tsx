@@ -1,5 +1,14 @@
 import Link from "next/link"
 
+type CategoryEntry = {
+  label: string
+  url: string
+}
+
+function sortEntries(entries: CategoryEntry[]) {
+  return [...entries].sort((left, right) => left.label.localeCompare(right.label))
+}
+
 const categories = [
   {
     href: "/financial",
@@ -23,7 +32,6 @@ const categories = [
       { label: "Debt to Legacy", url: "https://debttolegacy.com" },
       { label: "FelixStore", url: "https://apps.apple.com/us/app/felix-store/id1567050617" },
       { label: "Adrian-Styled-StoreFront", url: "https://www.shopwithadrian.com/" },
-      { label: "FeliTrips", url: "#" },
       { label: "RestEZ", url: "https://tablepilot.io" },
       { label: "LearnFlow", url: "https://learn.debttolegacy.com/" },
       { label: "DTL Learning", url: "#" },
@@ -49,6 +57,7 @@ const categories = [
       { label: "In City Experience", url: "#" },
       { label: "LiveLoop", url: "https://apps.apple.com/us/app/live-loop/id6760877693" },
       { label: "EventLoop by LiveLoop", url: "https://web.live-loop.live/" },
+      { label: "FeliTrips", url: "#" },
       { label: "City Discoverer Travel TV", url: "https://traveltv.citydiscoverer.guide/" },
       { label: "Travel with AdrianFelix", url: "#" },
       { label: "FelixTravelTV", url: "https://traveltv.citydiscoverer.guide/" },
@@ -270,9 +279,13 @@ export default function EcosystemPage() {
                 </div>
 
                 <div className="flex flex-wrap gap-3">
-                  {category.entries.map((entry) => {
+                  {sortEntries(category.entries).map((entry) => {
                     const href = entry.url === "#" ? category.href : entry.url
                     const isExternal = entry.url !== "#"
+                    const badgeLabel = isExternal ? "Live" : "Coming Soon"
+                    const badgeClassName = isExternal
+                      ? "bg-[#C6A75E]/15 text-[#C6A75E] border-[#C6A75E]/30"
+                      : "bg-gray-800 text-gray-300 border-gray-700"
 
                     return isExternal ? (
                       <a
@@ -280,17 +293,23 @@ export default function EcosystemPage() {
                         href={href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-4 py-2 rounded-full bg-[#0B0B0F] border border-gray-800 text-sm text-gray-300 hover:border-[#C6A75E]/60 hover:text-white transition"
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0B0B0F] border border-gray-800 text-sm text-gray-300 hover:border-[#C6A75E]/60 hover:text-white transition"
                       >
                         {entry.label}
+                        <span className={`text-[10px] uppercase tracking-wide px-2 py-1 rounded-full border ${badgeClassName}`}>
+                          {badgeLabel}
+                        </span>
                       </a>
                     ) : (
                       <Link
                         key={entry.label}
                         href={href}
-                        className="px-4 py-2 rounded-full bg-[#0B0B0F] border border-gray-800 text-sm text-gray-300 hover:border-[#C6A75E]/60 hover:text-white transition"
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0B0B0F] border border-gray-800 text-sm text-gray-300 hover:border-[#C6A75E]/60 hover:text-white transition"
                       >
                         {entry.label}
+                        <span className={`text-[10px] uppercase tracking-wide px-2 py-1 rounded-full border ${badgeClassName}`}>
+                          {badgeLabel}
+                        </span>
                       </Link>
                     )
                   })}
