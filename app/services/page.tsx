@@ -73,7 +73,7 @@ export default function ServicesDivision() {
           />
 
           <ServiceCard
-            title="ARK Logistics - An Errand Easy Delivery Company."
+            title="ARK Logistics - An Errand Easy Delivery Company"
             description="Delivering Excellence, Moving Your World — A comprehensive logistics and delivery service designed to provide efficient, reliable, and scalable solutions for businesses and individuals, ensuring your goods reach their destination with care and precision."
             url="https://errandeasydelivery.com"
           />
@@ -91,7 +91,7 @@ export default function ServicesDivision() {
           />
 
           <ServiceCard
-            title="EasyDesk Pro - Prototype."
+            title="EasyDesk Pro - Prototype"
             description="Modern coworking spaces empowering freelancers, teams, and startups."
             url="https://ezdesk.pro"
 
@@ -140,7 +140,7 @@ export default function ServicesDivision() {
           />
 
           <ServiceCard
-            title="aflaundry-new"
+            title="AFLaundry-New"
             description="Next deployment track for A&F Laundry operational workflows and service infrastructure."
             url="#"
           />

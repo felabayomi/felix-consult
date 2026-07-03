@@ -57,55 +57,55 @@ export default function TravelDivision() {
         <div className="grid md:grid-cols-2 gap-8">
 
           <DivisionItem
-            name="Schedez Travel Planning."
+            name="Schedez Travel Planning"
             description="I help you plan your trip, find the best options, compare pricing, and handle all the booking and back-end work."
             url="https://schedez.io/"
           />
 
           <DivisionItem
-            name="Expedition America Dispatch."
+            name="Expedition America Dispatch"
             description="Rediscover America One State at a Time"
             url="https://expeditionamerica.online/"
           />
 
           <DivisionItem
-            name="City Discoverer."
+            name="City Discoverer"
             description="GPS-powered city recognition with personalized recommendations for dining, attractions, and local experiences."
             url="https://discoverer.city"
           />
 
           <DivisionItem
-            name="City Discoverer Travel Planner (AI)."
+            name="City Discoverer Travel Planner (AI)"
             description="AI-generated personalized itineraries tailored to your travel style, preferences, and destination."
             url="https://plan.citydiscoverer.ai"
           />
 
           <DivisionItem
-            name="Travel Center Hub."
+            name="Travel Center Hub"
             description="Your gateway to flights, hotels, cruises, car rentals, and travel experience."
             url="https://travelcenterhub.com"
           />
 
           <DivisionItem
-            name="Expedition America Travel Co."
+            name="Expedition America Travel Co"
             description="Explore the diverse landscapes and cultural heritage of America through guided expeditions."
             url="https://expeditionamerica.us"
           />
 
           <DivisionItem
-            name="StreamPilot"
+            name="StreamPilot (Travel)"
             description="Manage and discover streaming content across platforms in one centralized ecosystem."
             url="https://apps.apple.com/us/app/streampilot/id6757970417"
           />
 
           <DivisionItem
-            name="Wildlife Films."
+            name="Wildlife Films"
             description="Discover, catalog, and track wildlife documentaries and nature films worldwide."
             url="https://apps.apple.com/us/app/streampilot/id6757970417"
           />
 
           <DivisionItem
-            name="City Discoverer Agent SchedEZ."
+            name="City Discoverer Agent SchedEZ"
             description="Schedule sessions with travel consultants for structured itinerary planning and local insights."
             url="https://citydiscoverer.guide/book"
           />
@@ -114,13 +114,13 @@ export default function TravelDivision() {
             description="Sports Stories by Real Fans. Share your greatest sports memories with fans who get it."
             url="https://apps.apple.com/us/app/fanlore/id6760257973"
           />
-          <DivisionItem name="Ariyike Tours."
+          <DivisionItem name="Ariyike Tours"
             description="Curated travel experiences and guided tours showcasing local culture and attractions."
             url="#"
           />
 
           <DivisionItem
-            name="In City Experience."
+            name="In City Experience"
             description="Immerse yourself in urban adventures and local experiences within major cities."
             url="#"
 
@@ -186,7 +186,7 @@ export default function TravelDivision() {
           />
 
           <DivisionItem
-            name="travel-tracker-felimark"
+            name="Travel-Tracker-FeliMark"
             description="Travel tracking workspace for trip activity and movement logs."
             url="#"
           />
@@ -210,7 +210,7 @@ export default function TravelDivision() {
           />
 
           <DivisionItem
-            name="expedition-america"
+            name="Expedition-America"
             description="State-by-state travel storytelling and route discovery across the U.S."
             url="https://expeditionamerica.online/"
           />

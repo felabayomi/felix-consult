@@ -59,13 +59,13 @@ export default function ConsultingDivision() {
         <div className="grid md:grid-cols-2 gap-8">
 
           <ServiceCard
-            title="Felix Consulting Group."
+            title="Felix Consulting Group"
             description="Strategic product advisory focused on ready-made app foundations, operational workflows, and launch execution."
             link="https://felixconsult.co/"
           />
 
           <ServiceCard
-            title="TFCG Chat."
+            title="TFCG Chat"
             description="Chat with Felix Consult to get help and explore ideas."
             link="https://tfcgchat.felixconsult.co"
           />
@@ -77,13 +77,13 @@ export default function ConsultingDivision() {
           />
 
           <ServiceCard
-            title="AdrianFelix Corporation."
+            title="AdrianFelix Corporation"
             description="Enterprise development initiatives focused on scalable products and repeatable delivery systems."
             link="https://felixconsult.co/"
           />
 
           <ServiceCard
-            title="Insightify Hub (Inquiry Hub)."
+            title="Insightify Hub (Inquiry Hub)"
             description="A collaborative platform designed to support cohort-based research and learning journeys. We believe that meaningful inquiry happens best when people work together, share resources, and build on each other's insights."
             link="https://inquiryhub.app"
           />
@@ -95,61 +95,61 @@ export default function ConsultingDivision() {
           />
 
           <ServiceCard
-            title="Justice Beyond Borders."
+            title="Justice Beyond Borders"
             description="Global impact initiative focused on structural justice, institutional reform, and ethical systems integration."
             link="#"
           />
 
           <ServiceCard
-            title="Center for Spiritual Humanism."
+            title="Center for Spiritual Humanism"
             description="Philosophical and human-centered frameworks exploring structured ethics, spiritual development, and civic leadership."
             link="#"
           />
 
           <ServiceCard
-            title="Faith House Ministries Church."
+            title="Faith House Ministries Church"
             description="Faith-based institutional platform integrating spiritual leadership, community impact, and structured ministry systems."
             link="https://faithhouse.app/"
           />
 
           <ServiceCard
-            title="TFCG Strategy Center."
+            title="TFCG Strategy Center"
             description="The Felix Consulting Group Strategy Room and Command Center — strategic discipline."
             link="https://tfcgstrategycenter.felixconsult.co"
           />
 
           <ServiceCard
-            title="Cicivor (Civicos Pro)."
+            title="Cicivor (Civicos Pro)"
             description="Candidate and civic operations support platform for campaign planning, compliance workflows, and strategic execution."
             link="https://civicos.pro"
           />
 
           <ServiceCard
-            title="WACI."
+            title="WACI"
             description="Conservation and community strategy initiative with structured program planning and impact delivery."
             link="#"
           />
 
           <ServiceCard
-            title="WACI-Project-Hub."
+            title="WACI-Project-Hub"
             description="Project operations hub for coordinated conservation initiatives, reporting workflows, and field execution."
             link="#"
           />
 
           <ServiceCard
-            title="Capital-Regime-Analysis."
+            title="Capital-Regime-Analysis"
             description="Macro and policy strategy platform focused on capital cycles, risk posture, and economic scenario planning."
             link="#"
           />
 
           <ServiceCard
-            title="felix-consult."
+            title="Felix Consult"
             description="Core consulting brand for launch strategy, product direction, and practical rollout planning."
             link="https://felixconsult.co/"
           />
 
           <ServiceCard
-            title="Civic Candidate Support Platform (CCSP)."
+            title="Civic Candidate Support Platform (CCSP)"
             description="Campaign operations platform built to support candidate teams with structured planning and execution systems."
             link="#"
           />
