@@ -82,7 +82,7 @@ export default function MediaDivision() {
 
         <DivisionItem
           name="50USAStates"
-          url="#"
+          url="https://www.expeditionamerica.online/"
         />
 
         <DivisionItem

@@ -102,7 +102,7 @@ const categories = [
       { label: "Felix Studios", url: "#" },
       { label: "City Discoverer (Web Platform)", url: "https://citydiscoverer.app" },
       { label: "WealthWatch (App Platform)", url: "https://apps.apple.com/us/app/wealth-watch/id6758687724" },
-      { label: "50USAStates", url: "#" },
+      { label: "50USAStates", url: "https://www.expeditionamerica.online/" },
       { label: "DailyFelix-WordofDay", url: "#" },
       { label: "WildFilm-Tracker", url: "#" },
       { label: "ElectionPredictor", url: "#" },
