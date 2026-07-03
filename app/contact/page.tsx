@@ -44,9 +44,8 @@ export default function ContactPage() {
         </h1>
 
         <p className="text-gray-400 mb-12">
-          Tell us what you need to ship and we will map the fastest path to launch.
-          Whether you need an MVP, a modernization, or growth features,
-          this intake helps us prepare a practical build plan.
+          Share what you need to launch, fix, or scale.
+          We will respond with a practical recommendation, timeline, and next best step.
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -60,7 +59,7 @@ export default function ContactPage() {
             className="w-full p-4 bg-[#111114] border border-[#C6A75E]/20 rounded-lg text-white"
             required
           >
-            <option value="">What do you want to ship?</option>
+            <option value="">Select your primary goal</option>
             <option value="mvp">Launch a new MVP</option>
             <option value="modernize">Modernize an existing app</option>
             <option value="revenue">Add revenue features</option>
@@ -75,6 +74,7 @@ export default function ContactPage() {
             onChange={(e) =>
               setForm({ ...form, name: e.target.value })
             }
+            autoComplete="name"
             className="w-full p-4 bg-[#111114] border border-[#C6A75E]/20 rounded-lg"
             required
           />
@@ -86,12 +86,13 @@ export default function ContactPage() {
             onChange={(e) =>
               setForm({ ...form, email: e.target.value })
             }
+            autoComplete="email"
             className="w-full p-4 bg-[#111114] border border-[#C6A75E]/20 rounded-lg"
             required
           />
 
           <textarea
-            placeholder="Share your goals, timeline, and the outcome you need..."
+            placeholder="What are you building, who is it for, and when do you want to launch?"
             rows={5}
             value={form.message}
             onChange={(e) =>
@@ -106,7 +107,7 @@ export default function ContactPage() {
             disabled={loading}
             className="bg-[#C6A75E] hover:bg-[#b8954f] text-black px-6 py-3 rounded-lg font-semibold transition"
           >
-            {loading ? "Sending..." : "Request Discovery Call"}
+            {loading ? "Sending..." : "Get My Build Plan"}
           </button>
 
           {success && (

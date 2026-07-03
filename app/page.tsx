@@ -11,47 +11,51 @@ export default function HomePage() {
         </h1>
 
         <p className="text-[#D4AF37] text-lg md:text-xl mb-4">
-          Your App Foundry For Fast, Revenue-Ready Digital Products
+          Build, Launch, And Scale Revenue-Ready Apps Faster
         </p>
 
         <p className="max-w-3xl mx-auto text-gray-400 mb-10">
-          We help teams launch production apps in weeks, not quarters. Start from proven foundations, customize what matters, and ship with a clear go-to-market path.
+          We partner with founders and operators to ship production apps in weeks, not quarters. Start from proven foundations, customize where it matters, and launch with measurable business outcomes.
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
           <Link
             href="/contact"
-            className="bg-[#D4AF37] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90 transition"
+            className="bg-[#D4AF37] text-black px-7 py-3 rounded-md font-semibold hover:opacity-90 transition"
           >
-            Book A Discovery Call
+            Book Discovery Call
           </Link>
           <Link
             href="/ecosystem"
             className="border border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded-md font-semibold hover:bg-[#D4AF37] hover:text-black transition"
           >
-            See Productized Solutions
+            See Build Tracks
           </Link>
         </div>
+
+        <p className="mt-5 text-sm text-gray-500">
+          30-minute call. Clear scope. Practical next steps.
+        </p>
       </section>
 
-      {/* METRICS */}
+      {/* PROOF STRIP */}
       <section className="py-12 border-t border-gray-800 text-center">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <p className="text-3xl font-bold text-[#D4AF37]">MVP in 4-8 Weeks</p>
-            <p className="text-gray-400 text-sm">Typical Delivery Window</p>
+            <p className="text-3xl font-bold text-[#D4AF37]">4-8 Weeks</p>
+            <p className="text-gray-400 text-sm">Typical MVP Launch</p>
           </div>
           <div>
             <p className="text-3xl font-bold text-[#D4AF37]">3 Build Tracks</p>
-            <p className="text-gray-400 text-sm">Starter, Growth, Scale</p>
+            <p className="text-gray-400 text-sm">MVP, Modernize, Scale</p>
           </div>
           <div>
             <p className="text-3xl font-bold text-[#D4AF37]">Production-First</p>
-            <p className="text-gray-400 text-sm">Build, Deploy, Iterate</p>
+            <p className="text-gray-400 text-sm">Deploy Early, Improve Fast</p>
           </div>
           <div>
             <p className="text-3xl font-bold text-[#D4AF37]">Founder-Led</p>
-            <p className="text-gray-400 text-sm">Hands-On Delivery</p>
+            <p className="text-gray-400 text-sm">Direct Senior Execution</p>
           </div>
         </div>
       </section>
@@ -118,7 +122,7 @@ export default function HomePage() {
               items: [
                 "Roadmap planning tied to business outcomes.",
                 "Execution support from idea to deployment.",
-                "Decision support for hires, tooling, and growth." 
+                "Decision support for hires, tooling, and growth."
               ],
               link: "Request Product Partnership →"
             },
