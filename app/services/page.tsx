@@ -151,7 +151,13 @@ export default function ServicesDivision() {
           <ServiceCard
             title="AFLaundry-New"
             description="Next deployment track for A&F Laundry operational workflows and service infrastructure."
-            url="#"
+            url="https://laundryapp.felixplatforms.com/"
+          />
+
+          <ServiceCard
+            title="AFLaundry-New (Mobile App)"
+            description="iOS app for A&F Laundry customer booking and service workflows."
+            url="https://apps.apple.com/us/app/aflaundry/id1596646806"
           />
 
           <ServiceCard
