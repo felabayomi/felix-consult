@@ -8,6 +8,8 @@ function ContactForm() {
     email: "",
     message: "",
     intent: "",
+    budget: "",
+    timeline: "",
   })
 
   const [loading, setLoading] = useState(false)
@@ -29,7 +31,7 @@ function ContactForm() {
 
     if (data.success) {
       setSuccess(true)
-      setForm({ name: "", email: "", message: "", intent: "" })
+      setForm({ name: "", email: "", message: "", intent: "", budget: "", timeline: "" })
     }
 
     setLoading(false)
@@ -88,6 +90,39 @@ function ContactForm() {
           className="w-full p-4 bg-[#111114] border border-[#C6A75E]/20 rounded-lg"
           required
         />
+
+        <div className="grid md:grid-cols-2 gap-6">
+          <select
+            value={form.budget}
+            onChange={(e) =>
+              setForm({ ...form, budget: e.target.value })
+            }
+            className="w-full p-4 bg-[#111114] border border-[#C6A75E]/20 rounded-lg text-white"
+            required
+          >
+            <option value="">Select your budget</option>
+            <option value="Under $500">Under $500</option>
+            <option value="$500 - $1,500">$500 - $1,500</option>
+            <option value="$1,500 - $5,000">$1,500 - $5,000</option>
+            <option value="$5,000+">$5,000+</option>
+          </select>
+
+          <select
+            value={form.timeline}
+            onChange={(e) =>
+              setForm({ ...form, timeline: e.target.value })
+            }
+            className="w-full p-4 bg-[#111114] border border-[#C6A75E]/20 rounded-lg text-white"
+            required
+          >
+            <option value="">Select your timeline</option>
+            <option value="ASAP">ASAP</option>
+            <option value="Within 2 weeks">Within 2 weeks</option>
+            <option value="Within 30 days">Within 30 days</option>
+            <option value="1-3 months">1-3 months</option>
+            <option value="Just exploring">Just exploring</option>
+          </select>
+        </div>
 
         <textarea
           placeholder="What are you building, who is it for, and when do you want to launch?"

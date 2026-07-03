@@ -13,7 +13,7 @@ export async function POST(req: Request) {
 
     const resend = new Resend(apiKey)
 
-    const { name, email, message, intent } = await req.json()
+    const { name, email, message, intent, budget, timeline } = await req.json()
 
     // 1️⃣ ADMIN NOTIFICATION
     await resend.emails.send({
@@ -24,6 +24,8 @@ export async function POST(req: Request) {
         <div style="font-family: Arial, sans-serif; line-height: 1.6;">
           <h2>New Contact Submission</h2>
           <p><strong>Intent:</strong> ${intent}</p>
+          <p><strong>Budget:</strong> ${budget}</p>
+          <p><strong>Timeline:</strong> ${timeline}</p>
           <p><strong>Name:</strong> ${name}</p>
           <p><strong>Email:</strong> ${email}</p>
           <p><strong>Message:</strong></p>
@@ -44,6 +46,9 @@ export async function POST(req: Request) {
           <p>
             Thank you for reaching out to Felix Consulting Group.
             Your request regarding "<strong>${intent}</strong>" has been received.
+          </p>
+          <p>
+            We noted your budget as <strong>${budget}</strong> and your timeline as <strong>${timeline}</strong>.
           </p>
           <p>
             Our team will review your message and respond shortly.
