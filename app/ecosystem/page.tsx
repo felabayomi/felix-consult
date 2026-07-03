@@ -57,7 +57,7 @@ const categories = [
       { label: "In City Experience", url: "#" },
       { label: "LiveLoop", url: "https://apps.apple.com/us/app/live-loop/id6760877693" },
       { label: "EventLoop by LiveLoop", url: "https://web.live-loop.live/" },
-      { label: "FeliTrips", url: "#" },
+      { label: "FeliTrips", url: "https://grouptours.citydiscoverer.guide/" },
       { label: "City Discoverer Travel TV", url: "https://traveltv.citydiscoverer.guide/" },
       { label: "Travel with AdrianFelix", url: "#" },
       { label: "FelixTravelTV", url: "https://traveltv.citydiscoverer.guide/" },
