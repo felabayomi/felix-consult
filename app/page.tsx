@@ -31,6 +31,12 @@ export default function HomePage() {
           >
             Pick An App Template
           </Link>
+          <Link
+            href="/services"
+            className="border border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded-md font-semibold hover:bg-[#D4AF37] hover:text-black transition"
+          >
+            View Pricing
+          </Link>
         </div>
 
         <p className="mt-5 text-sm text-gray-500">
