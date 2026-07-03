@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:guard": "powershell -ExecutionPolicy Bypass -File scripts/sync-guard.ps1"
   },
   "dependencies": {
     "next": "16.1.6",
