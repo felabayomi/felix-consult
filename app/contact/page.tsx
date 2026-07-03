@@ -58,12 +58,11 @@ function ContactForm() {
           required
         >
           <option value="">Select your primary goal</option>
-          <option value="review">$99 App Business Review</option>
-          <option value="mvp">$499 Launch Setup</option>
-          <option value="custom">Custom App Launch (from $1,500)</option>
-          <option value="modernize">Modernize an existing app</option>
-          <option value="revenue">Add revenue features</option>
-          <option value="ai">Integrate AI workflows</option>
+          <option value="I want to buy an app template">I want to buy an app template</option>
+          <option value="I want Felix Consult to launch an app for me">I want Felix Consult to launch an app for me</option>
+          <option value="I need a custom version of an existing app">I need a custom version of an existing app</option>
+          <option value="I am an agency buying for a client">I am an agency buying for a client</option>
+          <option value="I need help choosing the right app">I need help choosing the right app</option>
         </select>
 
         <input
