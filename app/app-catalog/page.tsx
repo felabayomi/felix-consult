@@ -96,16 +96,16 @@ const featuredApps: CatalogItem[] = [
         url: "https://billwatch.pro",
     },
     {
-        name: "City Discoverer / Travel Planner",
-        outcome: "Launch a destination discovery and itinerary planning platform.",
-        bestFor: "Travel brands, creators, city guides, tourism operators.",
-        status: "Live Demo",
+        name: "City Discoverer Companion (Mobile App)",
+        outcome: "Launch and monetize a city discovery companion app built for repeat traveler engagement.",
+        bestFor: "Travel brands, city guides, tourism creators, and destination operators.",
+        status: "App Store",
         startingPackage: "$499 launch setup",
         budget: "$499 Setup",
         appType: "Travel",
         buyerType: "Creator",
         launchSpeed: "1-2 Weeks",
-        url: "https://plan.citydiscoverer.ai",
+        url: "https://apps.apple.com/us/app/city-discoverer-companion/id6759014495",
     },
     {
         name: "Errand Easy / ARK Logistics",
@@ -230,6 +230,17 @@ const browseByType: Array<{ heading: string; items: CatalogItem[] }> = [
     {
         heading: "Travel & City Discovery",
         items: [featuredApps[3], featuredApps[4], {
+            name: "City Discoverer (Web App)",
+            outcome: "Launch a web destination discovery platform that complements your mobile app growth.",
+            bestFor: "Tourism operators, city discovery brands, and travel communities.",
+            status: "Live Demo",
+            startingPackage: "$499 launch setup",
+            budget: "$499 Setup",
+            appType: "Travel",
+            buyerType: "Creator",
+            launchSpeed: "1-2 Weeks",
+            url: "https://citydiscoverer.app/",
+        }, {
             name: "Travel Center Hub",
             outcome: "Launch a travel portal combining flights, hotels, and experiences.",
             bestFor: "Travel agencies and destination brands.",
@@ -574,6 +585,32 @@ export default function AppCatalogPage() {
                     <h1 className="text-4xl md:text-5xl font-bold mb-5 text-[#C6A75E]">Choose a Ready-Made App And Launch It Under Your Brand</h1>
                     <p className="text-gray-300 text-lg mb-8">Pick a proven app foundation. Brand it. Launch it fast.</p>
                     <Link href="/contact" className="inline-block bg-[#C6A75E] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90">Not sure which app fits? Get a $99 App Business Review</Link>
+                </section>
+
+                <section className="mb-16 border border-[#C6A75E]/30 rounded-2xl p-8 bg-[#111114]">
+                    <p className="inline-block text-xs tracking-[0.2em] uppercase text-[#C6A75E] border border-[#C6A75E]/40 rounded-full px-3 py-1 mb-4">Signature Product</p>
+                    <h2 className="text-3xl font-semibold mb-4 text-[#C6A75E]">City Discoverer Companion</h2>
+                    <p className="text-gray-300 mb-6 max-w-3xl">
+                        Our main monetized product: a mobile city discovery app with a live web companion for broader acquisition and engagement.
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                        <a
+                            href="https://apps.apple.com/us/app/city-discoverer-companion/id6759014495"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center border border-[#C6A75E]/50 text-[#C6A75E] px-6 py-3 rounded-md font-semibold hover:border-[#C6A75E]"
+                        >
+                            Open Mobile App
+                        </a>
+                        <a
+                            href="https://citydiscoverer.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center border border-[#C6A75E]/50 text-[#C6A75E] px-6 py-3 rounded-md font-semibold hover:border-[#C6A75E]"
+                        >
+                            Open Web App
+                        </a>
+                    </div>
                 </section>
 
                 <section className="mb-16 border border-[#C6A75E]/20 rounded-2xl p-8 bg-[#101014]">
