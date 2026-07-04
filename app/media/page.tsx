@@ -81,6 +81,11 @@ export default function MediaDivision() {
         />
 
         <DivisionItem
+          name="FelixStore"
+          url="https://apps.apple.com/us/app/felix-store/id1567050617"
+        />
+
+        <DivisionItem
           name="50USAStates"
           url="https://www.expeditionamerica.online/"
         />
