@@ -167,13 +167,13 @@ export default function ServicesDivision() {
           />
 
           <ServiceCard
-            title="Letter-Organizer-Pro"
+            title="Letter-Organizer-Pro (Mobile App)"
             description="Organized workflow system for letter intake, tracking, and action management."
-            url="#"
+            url="https://apps.apple.com/us/app/letter-vault/id6760270008"
           />
 
           <ServiceCard
-            title="Letter-Vault-Deployment"
+            title="Letter-Organizer-Pro (Web App)"
             description="Deployment-ready letter management platform for records, reminders, and follow-through."
             url="https://lettervault.us"
           />
