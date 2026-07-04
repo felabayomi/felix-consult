@@ -1,4 +1,7 @@
+"use client"
+
 import Link from "next/link"
+import { useState } from "react"
 
 type CategoryEntry = {
   label: string
@@ -201,6 +204,18 @@ const categories = [
 ]
 
 export default function EcosystemPage() {
+  const [searchQuery, setSearchQuery] = useState("")
+  const normalizedQuery = searchQuery.trim().toLowerCase()
+
+  const visibleCategories = categories
+    .map((category) => ({
+      ...category,
+      filteredEntries: sortEntries(category.entries).filter((entry) =>
+        entry.label.toLowerCase().includes(normalizedQuery)
+      ),
+    }))
+    .filter((category) => normalizedQuery === "" || category.filteredEntries.length > 0)
+
   return (
     <main className="relative min-h-screen bg-[#0B0B0F] text-white px-6 py-24">
 
@@ -256,10 +271,24 @@ export default function EcosystemPage() {
             <p className="text-gray-400 leading-relaxed">
               Browse the actual pages and app foundations listed inside each category page directly from this ecosystem hub.
             </p>
+
+            <div className="mt-6">
+              <label htmlFor="ecosystem-search" className="sr-only">
+                Search ecosystem pages
+              </label>
+              <input
+                id="ecosystem-search"
+                type="text"
+                value={searchQuery}
+                onChange={(event) => setSearchQuery(event.target.value)}
+                placeholder="Search pages (e.g., Travel Center Hub)"
+                className="w-full rounded-lg border border-[#C6A75E]/30 bg-[#0B0B0F] px-4 py-3 text-sm text-white placeholder:text-gray-500 focus:border-[#C6A75E] focus:outline-none"
+              />
+            </div>
           </div>
 
           <div className="space-y-10">
-            {categories.map((category) => (
+            {visibleCategories.map((category) => (
               <section
                 key={`${category.href}-entries`}
                 className="bg-[#111114] border border-[#C6A75E]/20 rounded-2xl p-8"
@@ -283,7 +312,7 @@ export default function EcosystemPage() {
                 </div>
 
                 <div className="flex flex-wrap gap-3">
-                  {sortEntries(category.entries).map((entry) => {
+                  {category.filteredEntries.map((entry) => {
                     const href = entry.url === "#" ? category.href : entry.url
                     const isExternal = entry.url !== "#"
                     const badgeLabel = isExternal ? "Live" : "Coming Soon"
@@ -320,6 +349,12 @@ export default function EcosystemPage() {
                 </div>
               </section>
             ))}
+
+            {visibleCategories.length === 0 && (
+              <div className="rounded-2xl border border-gray-800 bg-[#111114] p-8 text-center text-gray-400">
+                No results found for "{searchQuery}".
+              </div>
+            )}
           </div>
         </section>
 
