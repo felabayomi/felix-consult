@@ -184,7 +184,7 @@ const categories = [
       { label: "ARK Sports Lounge", url: "https://apps.apple.com/us/app/fanlore/id6760257973" },
       { label: "Felix Meal", url: "https://chatgpt.com/g/g-689404bb375c8191a934b6afca8659c8-felix-meals" },
       { label: "AFLaundry", url: "https://aflaundry.com/" },
-      { label: "Document-Formatter", url: "#" },
+      { label: "Document-Formatter", url: "https://formatter.felixplatforms.com/" },
       { label: "AFLaundry-New (Mobile App)", url: "https://apps.apple.com/us/app/aflaundry/id1596646806" },
       { label: "AFLaundry-New (Web App)", url: "https://laundryapp.felixplatforms.com/" },
       { label: "Inquiry-Hub", url: "https://inquiryhub.app" },

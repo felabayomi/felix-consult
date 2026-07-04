@@ -145,7 +145,7 @@ export default function ServicesDivision() {
           <ServiceCard
             title="Document-Formatter"
             description="Document processing workflow tool for formatting and delivery operations."
-            url="#"
+            url="https://formatter.felixplatforms.com/"
           />
 
           <ServiceCard
