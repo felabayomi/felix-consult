@@ -181,7 +181,7 @@ export default function ServicesDivision() {
           <ServiceCard
             title="Smart-Meeting-Minder"
             description="Meeting reminder and schedule coordination platform for team operations."
-            url="#"
+            url="https://smartmeetings.felixconsult.co"
           />
 
           <ServiceCard

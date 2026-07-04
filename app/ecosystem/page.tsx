@@ -190,7 +190,7 @@ const categories = [
       { label: "Inquiry-Hub", url: "https://inquiryhub.app" },
       { label: "Letter-Organizer-Pro (Mobile App)", url: "https://apps.apple.com/us/app/letter-vault/id6760270008" },
       { label: "Letter-Organizer-Pro (Web App)", url: "https://lettervault.us/" },
-      { label: "Smart-Meeting-Minder", url: "#" },
+      { label: "Smart-Meeting-Minder", url: "https://smartmeetings.felixconsult.co" },
       { label: "Errand Mover", url: "https://errandeasyscheduler.com" },
       { label: "ErrandEZ Mobile", url: "https://errandez.com/" },
       { label: "Felix App Manager", url: "http://felixdgreatapps.felixconsult.co/" },
