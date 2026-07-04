@@ -167,6 +167,18 @@ const featuredApps: CatalogItem[] = [
         launchSpeed: "2-4 Weeks",
         url: "https://taxflowpro.felixconsult.co/",
     },
+    {
+        name: "In City Experience",
+        outcome: "Launch concierge-style local experience programming for guests, residents, and teams.",
+        bestFor: "Boutique hotels, luxury apartment communities, and experience-led hospitality brands.",
+        status: "Live Demo",
+        startingPackage: "$499 launch setup",
+        budget: "$499 Setup",
+        appType: "Travel",
+        buyerType: "Agency",
+        launchSpeed: "1-2 Weeks",
+        url: "https://www.incityexperience.com/",
+    },
 ]
 
 const browseByType: Array<{ heading: string; items: CatalogItem[] }> = [
@@ -567,12 +579,26 @@ function CatalogCard({ item }: { item: CatalogItem }) {
 }
 
 export default function AppCatalogPage() {
+    const [quickSearch, setQuickSearch] = useState("")
     const [search, setSearch] = useState("")
     const [appType, setAppType] = useState<string>("All")
     const [budget, setBudget] = useState<string>("All")
     const [status, setStatus] = useState<string>("All")
     const [buyerType, setBuyerType] = useState<string>("All")
     const [launchSpeed, setLaunchSpeed] = useState<string>("All")
+    const [libraryOpen, setLibraryOpen] = useState(false)
+
+    const runQuickSearch = () => {
+        const normalized = quickSearch.trim()
+        setSearch(normalized)
+        setLibraryOpen(true)
+        setTimeout(() => {
+            const section = document.getElementById("full-app-library")
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth", block: "start" })
+            }
+        }, 50)
+    }
 
     const filteredArchive = useMemo(() => {
         return fullArchive.filter((item) => {
@@ -595,6 +621,27 @@ export default function AppCatalogPage() {
                     <p className="inline-block text-xs tracking-[0.2em] uppercase text-[#C6A75E] border border-[#C6A75E]/40 rounded-full px-3 py-1 mb-4">Storefront Catalog</p>
                     <h1 className="text-4xl md:text-5xl font-bold mb-5 text-[#C6A75E]">Choose a Ready-Made App And Launch It Under Your Brand</h1>
                     <p className="text-gray-300 text-lg mb-8">Pick a proven app foundation. Brand it. Launch it fast.</p>
+                    <div className="mb-6 flex flex-col sm:flex-row gap-3">
+                        <input
+                            value={quickSearch}
+                            onChange={(e) => setQuickSearch(e.target.value)}
+                            onKeyDown={(e) => {
+                                if (e.key === "Enter") {
+                                    e.preventDefault()
+                                    runQuickSearch()
+                                }
+                            }}
+                            placeholder="Search an app quickly"
+                            className="w-full sm:max-w-xl bg-[#0B0B0F] border border-[#C6A75E]/30 rounded-md px-4 py-3 text-sm"
+                        />
+                        <button
+                            type="button"
+                            onClick={runQuickSearch}
+                            className="bg-[#C6A75E] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90"
+                        >
+                            Search
+                        </button>
+                    </div>
                     <Link href="/contact" className="inline-block bg-[#C6A75E] text-black px-6 py-3 rounded-md font-semibold hover:opacity-90">Not sure which app fits? Get a $99 App Business Review</Link>
                 </section>
 
@@ -661,8 +708,8 @@ export default function AppCatalogPage() {
                     </div>
                 </section>
 
-                <section className="mb-20">
-                    <details className="group border border-[#C6A75E]/20 rounded-2xl p-6 bg-[#101014]">
+                <section id="full-app-library" className="mb-20">
+                    <details open={libraryOpen} onToggle={(e) => setLibraryOpen((e.target as HTMLDetailsElement).open)} className="group border border-[#C6A75E]/20 rounded-2xl p-6 bg-[#101014]">
                         <summary className="cursor-pointer list-none flex items-center justify-between text-xl font-semibold text-[#C6A75E]">
                             <span>View Full App Library ({fullArchive.length} Apps)</span>
                             <span className="text-sm text-gray-400 group-open:hidden">Expand</span>
