@@ -57,7 +57,7 @@ const categories = [
       { label: "City Discoverer Agent SchedEZ", url: "https://citydiscoverer.guide/book" },
       { label: "FanLore", url: "https://apps.apple.com/us/app/fanlore/id6760257973" },
       { label: "Ariyike Tours", url: "#" },
-      { label: "In City Experience", url: "#" },
+      { label: "In City Experience", url: "https://www.incityexperience.com/" },
       { label: "LiveLoop", url: "https://apps.apple.com/us/app/live-loop/id6760877693" },
       { label: "EventLoop by LiveLoop", url: "https://web.live-loop.live/" },
       { label: "FeliTrips", url: "https://grouptours.citydiscoverer.guide/" },
