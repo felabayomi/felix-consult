@@ -252,6 +252,17 @@ const browseByType: Array<{ heading: string; items: CatalogItem[] }> = [
             launchSpeed: "1-2 Weeks",
             url: "https://travelcenterhub.com",
         }, {
+            name: "In City Experience",
+            outcome: "Launch curated local experiences for hotels, companies, and communities through a concierge-style partner model.",
+            bestFor: "Boutique hotels, luxury apartments, and experience-led hospitality teams.",
+            status: "Live Demo",
+            startingPackage: "$499 launch setup",
+            budget: "$499 Setup",
+            appType: "Travel",
+            buyerType: "Agency",
+            launchSpeed: "1-2 Weeks",
+            url: "https://www.incityexperience.com/",
+        }, {
             name: "LiveLoop",
             outcome: "Launch real-time local recommendation feeds for travelers.",
             bestFor: "Travel creators and city discovery teams.",
